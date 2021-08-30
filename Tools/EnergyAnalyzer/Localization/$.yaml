@@ -8,6 +8,8 @@ Name: Localization
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 9526586a-f2cd-4afe-b2f5-b1daf5421018
+3D:
+ BackgroundColor: -1
 $Nodes:
 - 957acc25-a00d-40ec-b39b-1cdaf24eb40d
 - ecd8a240-6e7b-4cfe-9ac1-2147f5478d8b

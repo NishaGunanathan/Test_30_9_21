@@ -41,11 +41,7 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Transport"
 ResStatOn: true
-RotateAroundRefPoint: true
-RotateMUs: true
-SelectCtrl:
 ShiftcalendarObject:
-StatusWithIcons: true
 TargetCtrl:
 TargetObject:
 TargetSelection: "Exit strategy or target control"
@@ -55,11 +51,133 @@ UnloadingTime: 0
 UnplannedCtrl:
 UUID: 6166e055-870c-4ce8-a38b-313b9e4edc3f
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: "Z.Y1.Y2.SJ"
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimations:
+ MUSideToAttach: "Top"
+ NameLabelEnabled: false
+ NameLabelPosition: [-0.6,-0.6,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Graphics"
+ RobotArmAnimations:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ StatesOrientation: "Vertical"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-0.5,-0.235,0.5]
+  HorizontalStatesScale: [0.5,0.335,0.1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.4,0,0.28]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
+ $Objects:
+ -
+  AniRotationAxis: [0,0,-1]
+  AniRotationCenter: [0,0,0]
+  AniTranslationDirection: [1,0,0]
+  GraphicGroupNames: ["default"]
+  JointAcceleration: 0
+  JointDeceleration: 0
+  JointLowerLimitActive: false
+  JointType: "Revolute Joint"
+  JointUpperLimitActive: false
+  JointVelocity: 10
+  LockedGraphicGroups: []
+  Mirror: [false,false,false]
+  MUAnimations:
+  Name: Z
+  Position: [0,0,0.5]
+  Rotation: [0,0,0,-1]
+  Scale: [1,1,1]
+  SelfAnimations:
+  ShowContent: true
+  UUID: fed767e8-7442-482c-b555-ed60a9690919
+  VisibleGraphicGroups: ["default"]
+  $Objects:
+  -
+   AniRotationAxis: [0,1,0]
+   AniRotationCenter: [0,0,0]
+   AniTranslationDirection: [1,0,0]
+   GraphicGroupNames: ["default"]
+   JointAcceleration: 0
+   JointDeceleration: 0
+   JointLowerLimitActive: false
+   JointType: "Revolute Joint"
+   JointUpperLimitActive: false
+   JointVelocity: 10
+   LockedGraphicGroups: []
+   Mirror: [false,false,false]
+   MUAnimations:
+   Name: Y1
+   Position: [0.407,0,0.505]
+   Rotation: [0,0,0,-1]
+   Scale: [1,1,1]
+   SelfAnimations:
+   ShowContent: true
+   UUID: 853d1cf8-50a7-49f6-a23d-3763880afef4
+   VisibleGraphicGroups: ["default"]
+   $Objects:
+   -
+    AniRotationAxis: [0,1,0]
+    AniRotationCenter: [0,0,0]
+    AniTranslationDirection: [1,0,0]
+    GraphicGroupNames: ["default"]
+    JointAcceleration: 0
+    JointDeceleration: 0
+    JointLowerLimitActive: false
+    JointType: "Revolute Joint"
+    JointUpperLimitActive: false
+    JointVelocity: 10
+    LockedGraphicGroups: []
+    Mirror: [false,false,false]
+    MUAnimations:
+    Name: Y2
+    Position: [-0.8195,0,0.687]
+    Rotation: [0,0,0,-1]
+    Scale: [1,1,1]
+    SelfAnimations:
+    ShowContent: true
+    UUID: b4c3103a-954a-485f-a7b2-754d21ad2c1b
+    VisibleGraphicGroups: ["default"]
+    $Objects:
+    -
+     AniRotationAxis: [0,0,-1]
+     AniRotationCenter: [0,0,0]
+     AniTranslationDirection: [1,0,0]
+     GraphicGroupNames: ["default"]
+     JointAcceleration: 0
+     JointDeceleration: 0
+     JointLowerLimit: 0
+     JointLowerLimitActive: true
+     JointType: "Revolute Joint"
+     JointUpperLimit: 1
+     JointUpperLimitActive: true
+     JointVelocity: 1
+     LockedGraphicGroups: []
+     Mirror: [false,false,false]
+     MUAnimations:
+     -
+      Name: "Default"
+      AnchorPoints:
+      - [0.116,0,0.04,-110,0,1,0,~]
+     Name: SJ
+     Position: [0.79,0,0.29]
+     Rotation: [0,0,0,-1]
+     Scale: [1,1,1]
+     SelfAnimations:
+     ShowContent: true
+     UUID: 679f041d-d366-4483-b06b-8d69114fb1de
+     VisibleGraphicGroups: ["default"]
 $IconArray:
 -
  Name: "Default"
@@ -104,10 +222,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 10
- AniObjects:
- -
-  Coords: [38,18]
 -
  Name: "Operational"
  RefPoint: [18,18]
@@ -151,10 +265,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 10
- AniObjects:
- -
-  Coords: [52,18]
 -
  Name: "Failed"
  RefPoint: [18,18]
@@ -198,10 +308,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 10
- AniObjects:
- -
-  Coords: [52,18]
 -
  Name: "Pause"
  RefPoint: [18,18]
@@ -245,10 +351,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 10
- AniObjects:
- -
-  Coords: [52,18]
 $FailImp:
  Active: false
  Services:

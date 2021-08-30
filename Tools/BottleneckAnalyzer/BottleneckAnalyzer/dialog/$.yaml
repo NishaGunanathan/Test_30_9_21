@@ -2,16 +2,7 @@ InternalClassType: Frame
 Coordinate3D: [23.200000000000003,-1.1499999999999986,0]
 Name: dialog
 Origin: d7eacce9-a71a-4805-834d-dd6913d31bb7
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
 UUID: c274e341-0f8e-4396-9fb3-2df3657f499c
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 0
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - c5899e16-4bdf-4816-8927-7f88f4619ce9
 - 4f5d945e-e8e5-4caf-84c8-884fe648033e

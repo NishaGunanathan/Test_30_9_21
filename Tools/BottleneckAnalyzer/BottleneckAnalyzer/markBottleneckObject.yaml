@@ -38,8 +38,6 @@ Program: |+1
  obj.~.drawEllipse(-15,x-(w/2)-10,y-(h/2)-10,w+20,h+20,colors[1,6],5)
 RandomSeed: 58
 UUID: 1450979b-696c-497d-9b58-98d1c1939bf3
-$IconAttributes:
- CurrIconNo: 0
 $CustomAttributes:
 -
  Name: ReportObject

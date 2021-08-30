@@ -1,6 +1,4 @@
 InternalClassType: Frame
-AxesOrigin: [300,300]
-BackgroundColor: 16777215
 ChangePathCtrl:
 CloseCtrl:
 ConnectCtrl:
@@ -19,23 +17,8 @@ PermitDeleteCtrl:
 RelabelCtrl:
 RenameCtrl:
 ReplacementMode: "merge"
-RepresentationMode: "Icon"
-RotateAroundRefPoint: true
-RotateMUs: false
-ScalingFactor: 0.05
-SelectCtrl:
 ShiftcalendarObject:
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
-StatusWithIcons: true
 UUID: d7eacce9-a71a-4805-834d-dd6913d31bb7
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -83,8 +66,3 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
-$RepresentationArea: [0,0,0,0]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true

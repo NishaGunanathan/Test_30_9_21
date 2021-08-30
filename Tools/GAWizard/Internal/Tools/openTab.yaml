@@ -23,10 +23,4 @@ Program: |+1
  	dialogObj.setCaption(ButName,rootfolder.Localization.getText(55))--"Close"
  end
 RandomSeed: 491
-SelectCtrl:
 UUID: ee71ef4e-3668-49b2-9091-0feab82a1a64
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

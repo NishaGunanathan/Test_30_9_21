@@ -4,10 +4,6 @@ Label: ""
 Name: FitnessCalculation
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 23081c85-5b05-4517-9a9c-d04b96f20f45
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: ~
  ListFormat:

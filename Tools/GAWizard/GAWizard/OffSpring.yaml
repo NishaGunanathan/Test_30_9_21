@@ -27,10 +27,6 @@ YGridLineInterval: 0
 YLabel: "Fitness"
 YScaleMax: -1e+308
 YScaleMin: 1e+308
-$IconAttributes:
- Matrix: [1,9.3289942437735363e-10,-9.3289942437735363e-10,1]
- ChangedRotation: true
- ChangedScaling: true
 $Annotations:
 $Colors:
 - 0x0

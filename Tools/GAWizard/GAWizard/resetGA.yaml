@@ -294,8 +294,3 @@ Program: |+1
  --ResetIsInProgress := false
 RandomSeed: 430
 UUID: 0592c904-d7b1-4cc9-8bd6-af2d045da7a8
-$IconAttributes:
- CurrIconNo: 7
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

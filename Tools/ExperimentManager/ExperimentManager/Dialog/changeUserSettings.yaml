@@ -69,10 +69,6 @@ Program: |+1
  end
 RandomSeed: 315
 UUID: e80fcdd9-e35c-4045-9dbb-30c715e3a2d3
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: setting_resetInitBox

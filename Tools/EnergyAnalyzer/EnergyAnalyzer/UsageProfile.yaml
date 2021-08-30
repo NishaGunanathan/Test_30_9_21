@@ -41,8 +41,6 @@ UseInputChannels: false
 UUID: 8ed60836-fad3-4fc7-b637-c125e240e2c7
 XLabel: ""
 YLabel: "kWh"
-$IconAttributes:
- CurrIconNo: 1
 $IconArray:
 -
 -

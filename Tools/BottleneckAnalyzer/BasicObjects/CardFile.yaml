@@ -15,15 +15,7 @@ OpenCtrl:
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
-StatusWithIcons: true
 UUID: a5ddab3b-fa1d-48a9-bb84-0ef499a0c7db
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -71,7 +63,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 $Data:
  Comment: ""
  ListFormat:

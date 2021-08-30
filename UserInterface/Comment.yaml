@@ -17,8 +17,20 @@ OpenCtrl:
 PlausibilityCtrl:
 RenameCtrl:
 SaveAsRichedit: false
-SelectCtrl:
 Text: "Text"
 Transparent: false
 UUID: 235f6e33-9ef6-4d8e-8844-91899db1379b
 $BasicObject: true
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: true
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ VisibleGraphicGroups: ["default"]

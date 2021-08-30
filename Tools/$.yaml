@@ -7,6 +7,8 @@ Name: Tools
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: b285e934-3a7a-4fe5-85f8-009aa8cc3814
+3D:
+ BackgroundColor: -1
 $Nodes:
 - a9681d71-0cd6-4b29-9986-69be344cb20e
 - 7d29f0b6-0982-41d3-af80-8ae746e8f315

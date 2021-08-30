@@ -27,16 +27,8 @@ ParentSelection: "Deterministic"
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
-StatusWithIcons: true
 TerminationCtrl:
 UUID: 123b17c4-b7e1-4bfc-9f11-dd4fb638ad42
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -83,7 +75,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Default2"
  RefPoint: [0,0]
@@ -129,5 +120,4 @@ $IconArray:
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
- NumAniEvents: 1
 $TaskTable:

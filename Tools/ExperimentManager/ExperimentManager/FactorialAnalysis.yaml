@@ -74,8 +74,3 @@ Program: |+1
  --effTab.opendialog
 RandomSeed: 272
 UUID: f8d8beae-2653-44c9-b045-2b48125242fa
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

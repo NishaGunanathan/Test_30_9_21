@@ -7,6 +7,8 @@ Name: Resources
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 9d42c45d-a6de-4929-b9a3-2d8bcd446fbf
+3D:
+ BackgroundColor: -1
 $Nodes:
 - c37df150-3003-483c-8736-03b82e6e8fdc
 - 87eb569a-c0b3-45cd-ac24-1f18312fd339

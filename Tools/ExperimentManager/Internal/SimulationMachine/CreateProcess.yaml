@@ -91,8 +91,6 @@ Program: |+1
  end
 RandomSeed: 347
 UUID: 450dd360-a6b6-4dc8-a9c1-e72080cb93ef
-$IconAttributes:
- CurrIconNo: 0
 $CustomAttributes:
 -
  Name: ErrorHandler

@@ -4,10 +4,6 @@ Coordinate3D: [43.3,-22.35,0]
 Name: Recording
 Origin: a403b366-c5f2-4cec-b92e-c50ca2e9e084
 UUID: c2dd6e90-d2c1-4d36-b823-dfd6b29e5edf
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: isOpen

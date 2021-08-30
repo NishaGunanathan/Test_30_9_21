@@ -13,12 +13,7 @@ Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-SelectCtrl:
 UUID: b1509c7f-dd63-4d9b-8e33-ba53a72c0638
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: get

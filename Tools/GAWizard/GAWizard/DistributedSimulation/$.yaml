@@ -2,22 +2,12 @@ InternalClassType: Frame
 Coordinate3D: [32.3,-9,0]
 Name: DistributedSimulation
 Origin: 442b7015-51cb-4321-82a0-7f53497d6598
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
 UUID: 66ce4660-39d0-4fc7-8f15-ca9335548278
-ZoomFactor: 1
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: mainDialog
  $DataType: object
  Value: "~.Dialog.GAWizard"
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - f81c12b2-06c8-40fe-b434-43efbdd8043d
 - d92deff9-5779-4bac-89f2-7ff8e1b10f5a

@@ -16,10 +16,6 @@ Program: |+1
  ~.MachinesTable[7,MachineIndex] := 0  -- emplantHandle
 RandomSeed: 482
 UUID: e0105930-ccaf-4e13-9c6b-6a71cecbec0d
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: ErrorHandler

@@ -14,10 +14,4 @@ Program: |+1
  	messageBox(rootfolder.Localization.getText(27),1,4)  -- info
  end
 RandomSeed: 501
-SelectCtrl:
 UUID: 6d4d293c-1b57-4013-97a1-9c9c9e987173
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

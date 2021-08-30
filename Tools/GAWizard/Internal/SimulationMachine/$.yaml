@@ -1,6 +1,4 @@
 InternalClassType: Frame
-AxesOrigin: [0,0]
-BackgroundColor: 16777215
 ChangePathCtrl:
 CloseCtrl:
 ConnectCtrl:
@@ -19,23 +17,8 @@ PermitDeleteCtrl:
 RelabelCtrl:
 RenameCtrl:
 ReplacementMode: "merge"
-RepresentationMode: "Icon"
-RotateAroundRefPoint: true
-RotateMUs: false
-ScalingFactor: 0.05
-SelectCtrl:
 ShiftcalendarObject:
-ShowDisplayPanels: false
-ShowObjectLabels: false
-ShowObjectNames: true
-StatusWithIcons: false
 UUID: c4a078ea-178b-4757-b5bc-ec422a0df75d
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -82,7 +65,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Operational"
  Transparent: true
@@ -129,7 +111,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "ClassLibrary"
  RefPoint: [15,15]
@@ -152,18 +133,6 @@ $IconArray:
  - vr6+gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAQr3eQr3eQr3eQr3eQr3eAAAAvr6+
  - vr6+gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAvr6+
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
- NumAniEvents: 1
-$GraphicObjects:
-- [R,0,0x0,0,19,118,203,102,0,0]
-- [R,0,0x0,0,235,117,325,103,0,0]
-- [T,0,0xff0000,0,244,131,"Start and End of the simulation",8]
-- [T,0,0xff0000,0,28,25,"Start remote process",8]
-- [T,0,0xff0000,0,29,127,"Error handling",8]
-- [R,0,0x0,0,18,13,203,94,0,0]
-$RepresentationArea: [0,0,678,260]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - 89171681-e01b-4d9c-bd27-0f6e011f07ec
 - 324d61a5-59af-4185-b9d3-a381d981460f

@@ -12,16 +12,18 @@ Name: Connector
 OpenCtrl:
 PlausibilityCtrl:
 RenameCtrl:
-SelectCtrl:
-StatusWithIcons: true
 UUID: 6d4091af-7386-45d0-b2f8-d223cf92e4b2
 Width: 0
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ VisibleGraphicGroups: ["default"]
 $IconArray:
 -
  Name: "Default"
@@ -62,4 +64,3 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1

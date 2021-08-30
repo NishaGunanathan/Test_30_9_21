@@ -32,8 +32,3 @@ Program: |+1
  result := fit
 RandomSeed: 408
 UUID: f4d6b662-b7bc-423b-b0f7-b377bc72c1a6
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

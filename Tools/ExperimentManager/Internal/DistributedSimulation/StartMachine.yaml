@@ -59,5 +59,3 @@ Program: |+1
  newMachine.ConnectProcess(asTest,firstStart)
 RandomSeed: 345
 UUID: dcbaa2b5-04ef-45b6-90a6-0ef4ce43c05e
-$IconAttributes:
- CurrIconNo: 0

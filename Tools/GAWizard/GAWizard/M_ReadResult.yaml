@@ -95,8 +95,3 @@ Program: |+1
  dialog.showProgressByIcon
 RandomSeed: 393
 UUID: 74477c71-a24e-4595-a0cb-aa08d02cf346
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

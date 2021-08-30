@@ -5,4 +5,7 @@ DataType: string
 Name: Energy
 Origin: a73c2a00-58be-4cca-bc4c-563e8388bfd2
 UUID: 162de940-729a-455e-af6d-8290cab165dc
+3D:
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
 Value: ""

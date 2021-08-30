@@ -8,7 +8,3 @@ Program: |+1
  ApplObj.userPopupMenu := Context
 RandomSeed: 66
 UUID: dd2d9213-6059-4a10-ab3f-0e3c495d7a31
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

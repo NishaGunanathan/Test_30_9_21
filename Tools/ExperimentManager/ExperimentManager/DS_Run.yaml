@@ -9,8 +9,3 @@ Program: |+1
  EventController.start --WithoutAnimation
 RandomSeed: 190
 UUID: 7d7eadd5-4f20-4104-acd6-7417eb6fb10d
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

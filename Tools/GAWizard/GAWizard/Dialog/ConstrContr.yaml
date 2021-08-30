@@ -18,8 +18,3 @@ Program: |+1
  ~.GAoptimization.taskTable.delete
 RandomSeed: 451
 UUID: 4dbcd267-1b48-408c-bdd1-10f584192355
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

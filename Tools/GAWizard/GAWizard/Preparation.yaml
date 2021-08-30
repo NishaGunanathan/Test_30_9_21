@@ -8,8 +8,3 @@ Program: |+1
  -- initialize the model for the following optimization
 RandomSeed: 403
 UUID: a0e58260-c01f-486a-ad2c-c68bfa4f82b7
-$IconAttributes:
- CurrIconNo: 3
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

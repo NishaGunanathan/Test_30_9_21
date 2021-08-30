@@ -57,34 +57,61 @@ RenameCtrl:
 ResetDestinationWhenAtDestination: true
 ResourceType: "Transport"
 ResStatOn: true
-RotateMUs: true
 RotationSpeed: 10
 RouteWeightingAttr: ""
 RoutingCtrl:
-SelectCtrl:
 ShiftcalendarObject:
 Speed: 1
 SpeedCtrl:
 StartDelayDuration: 0
-StatusWithIcons: true
 UnplannedCtrl:
 UUID: 0bd6485a-7ae0-47fe-b704-7a39b97ece0d
-VectorgraphicsActive: true
-VectorgraphicsAnilineDirection: "Lengthwise"
-VectorgraphicsBorderColor: 33535
-VectorgraphicsBorderWidth: 2
-VectorgraphicsColor: 13816530
-VectorgraphicsShowDirectionArrow: true
-VectorgraphicsShowState: true
 XDim: 3
 YDim: 2
 ZDim: 1
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: ""
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ MaterialActive: true
+ MaterialAmbientColor: 13395507
+ MaterialDiffuseColor: 13395507
+ MaterialEmissiveColor: 0
+ MaterialShininess: 0.263
+ MaterialSpecularColor: 5855577
+ MaterialTransparency: 0
+ Mirror: [false,false,false]
+ MUAnimationAreaEnabled: true
+ MUAnimationAreaMURotation: [0,0,0,-1]
+ MUAnimationAreaOrientation: "XY plane"
+ MUAnimationAreaRelativeCenter: [-0.05,0,1]
+ MUAnimationAreaRelativeSize: [0.75,0.875]
+ MUAnimations:
+ -
+  Name: "Track"
+  AnchorPoints:
+  - [-0.68,0,0.4,0,0,0,1,~]
+  - [0.52,0,0.4,0,0,0,1,~]
+ -
+  Name: "Line"
+  AnchorPoints:
+  - [-0.08,0.4,0.4,-90.000210459149713,0,0,1,~]
+  - [-0.08,-0.4,0.4,-90.000210459149713,0,0,1,~]
+ MUSideToAttach: "Bottom"
+ Poses:
+ Rotation: [0,0,0,-1]
+ ScaleAutomatically: true
+ ShowContent: true
+ StatesOrientation: "Vertical"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [0.68,0.26,0.1]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [0.676,0.26,0.1]
+  VerticalStatesScale: [1,1,0.6]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Operational"
@@ -116,10 +143,6 @@ $IconArray:
  - AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//gIAA
  - AI//AI//AI//AAAAAAAAAAAAAAAAAAAAAI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AI//AAAAAAAAAAAAAAAAAAAAAI//AI//gIAAgIAA
  - gIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [12,12]
 -
  Name: "Failed"
  Transparent: true
@@ -150,10 +173,6 @@ $IconArray:
  - AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//gIAA
  - AA//AA//AA//AAAAAAAAAAAAAAAAAAAAAA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AA//AAAAAAAAAAAAAAAAAAAAAA//AA//gIAAgIAA
  - gIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [12,12]
 -
  Name: "Pause"
  Transparent: true
@@ -184,10 +203,6 @@ $IconArray:
  - /wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAAgIAA
  - /wAA/wAA/wAAAAAAAAAAAAAAAAAAAAAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAA/wAAAAAAAAAAAAAAAAAAAAAA/wAA/wAAgIAAgIAA
  - gIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [12,12]
 -
  Name: "Waiting"
  Transparent: true
@@ -218,10 +233,6 @@ $IconArray:
  - AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//gIAA
  - AP//AP//AP//AAAAAAAAAAAAAAAAAAAAAP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AP//AAAAAAAAAAAAAAAAAAAAAP//AP//gIAAgIAA
  - gIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [12,12]
 -
  Name: "tractor"
  Transparent: true
@@ -252,7 +263,3 @@ $IconArray:
  - AN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AgIAA
  - AN4AAN4AAN4AAAAAAAAAAAAAAAAAAAAAAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAN4AAAAAAAAAAAAAAAAAAAAAAN4AAN4AgIAAgIAA
  - gIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAAAAAAAAAAAAAAAAAAAAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [12,12]

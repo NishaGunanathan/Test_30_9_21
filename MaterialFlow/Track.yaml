@@ -1,6 +1,4 @@
 InternalClassType: Track
-AnimateOnEveryXthPixel: 2
-BaseHeight: 0.01
 BWDestList:
 BwEntranceCtrl:
 BwEntranceCtrlFront: false
@@ -10,12 +8,10 @@ BwExitCtrlFront: false
 BwExitCtrlRear: true
 Capacity: -1
 ChangePathCtrl:
-Color: 36095
 ConnectCtrl:
 ConstructorCtrl:
 Coordinate3D: [0,0,0]
 CreateIn3D: true
-CurveActive: true
 DestructorCtrl:
 DragDropCtrl:
 EntranceCtrl:
@@ -35,16 +31,11 @@ FWDestList:
 InitCtrl:
 Label: ""
 Length: 2
-MidLine: 1
 MoveInFrameCtrl:
 MoveToFolderCtrl:
 Name: Track
-ObjectAngle: 0
-ObjectMirrored: false
 OpenCtrl:
 PauseCtrl:
-PenColor: 16777215
-PenWidth: 1
 PlausibilityCtrl:
 PullCtrl:
 RandomSeed: 1
@@ -53,23 +44,54 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Transport"
 ResStatOn: true
-RotateAroundRefPoint: true
-RotateMovables: true
-RotateMUs: true
-SelectCtrl:
 ShiftcalendarObject:
-StatusWithIcons: false
 TransferLengthToObject: true
-Transparent: false
 UnplannedCtrl:
 UUID: 155c6e93-dd1c-4f6d-927a-64adc08c8ebc
 Width: 0.3
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniGravityMode: false
+ AnimationObject: ""
+ AnimationOffset: [0,0,0]
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ BaseHeight: 0.01
+ ExcludeFromShowContentOfLocation: false
+ ExtConfiguration:
+ -
+  Name: "Lanes"
+  Extrusion Profile: [[-0.5,-0.01],[0.5,-0.01],[0.5,0],[-0.5,0],[-0.5,-0.01]]
+  Configuration Type: 2
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0x8cff,0x0,0x0,0x0,0,0]
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimations:
+ MUSideToAttach: "Bottom"
+ NameLabelEnabled: false
+ NameLabelPosition: [0,-0.6,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ ShowSensors: true
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: false
 $IconArray:
 -
  Name: "Default"
@@ -116,10 +138,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [4,20,35,20]
 $CurveSegments:
 - 0
 - [0,2,0]

@@ -104,11 +104,6 @@ Program: |+1
  end -- if ParamSetBool
 RandomSeed: 433
 UUID: 7935ab3b-b8e3-4991-ba3e-85b594a1d3a8
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: ErrorHandler

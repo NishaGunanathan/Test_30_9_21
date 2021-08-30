@@ -12,11 +12,6 @@ Name: AdvancedSettings
 Origin: 649be7d7-0331-46b8-a973-ae19b8bda02e
 ShowStandardButtons: true
 UUID: be3d7c3f-8779-4790-b52a-69080d415686
-$IconAttributes:
- CurrIconNo: 2
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: activeRuleName

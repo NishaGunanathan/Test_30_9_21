@@ -172,13 +172,7 @@ Program: |+1
  end -- of define an input values
  @.resetGA
 RandomSeed: 498
-SelectCtrl:
 UUID: 00bef74b-8e59-4556-9a71-cdd6efabef5e
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: nonrelevantAttributes

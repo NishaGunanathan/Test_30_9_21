@@ -1,6 +1,4 @@
 InternalClassType: Frame
-AxesOrigin: [0,0]
-BackgroundColor: 16777215
 ChangePathCtrl:
 CloseCtrl:
 ConnectCtrl:
@@ -19,23 +17,50 @@ PermitDeleteCtrl:
 RelabelCtrl:
 RenameCtrl:
 ReplacementMode: "merge"
-RepresentationMode: "Icon"
-RotateAroundRefPoint: true
-RotateMUs: true
-ScalingFactor: 0.05
-SelectCtrl:
 ShiftcalendarObject:
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
-StatusWithIcons: false
 UUID: a66db8f2-e003-4655-979f-dd59aa82248d
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ BackgroundColor: -1
+ CameraAnimations:
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default","deco"]
+ InternalGraphicGroups: ["deco"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ NameLabelEnabled: false
+ NameLabelPosition: [-1,-1,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Visible graphics"
+ PlanningView: false
+ PointCloudPath: ""
+ PointCloudPosition: [0,0,0]
+ PointCloudRotation: [0,0,0,-1]
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowBasePlate: true
+ ShowConnections: true
+ ShowContent: false
+ ShowExternalGraphics: false
+ ShowGrid: true
+ ShowLabels: true
+ ShowNames: true
+ ShowPointClouds: false
+ ShowShadows: false
+ ShowSky: false
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["deco","default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Default"
@@ -82,7 +107,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Operational"
  Transparent: true
@@ -129,10 +153,5 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
-$RepresentationArea: [0,0,0,0]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - b02025e9-20a3-482d-868e-9f5f329cbf9f

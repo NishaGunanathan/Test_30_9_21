@@ -87,8 +87,3 @@ Program: |+1
  eMPlant.ResetSimulation(EvCrtlStr)
 RandomSeed: 415
 UUID: ef86337c-b058-47f7-ba48-c348c22a1f11
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

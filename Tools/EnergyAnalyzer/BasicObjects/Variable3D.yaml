@@ -18,11 +18,23 @@ Name: Variable3D
 OpenCtrl:
 PlausibilityCtrl:
 RenameCtrl:
-SelectCtrl:
 ShowDataType: false
 ShowUnit: true
 StatisticsActive: false
 SupportDDEhotlinks: false
 Transparent: false
 UUID: a73c2a00-58be-4cca-bc4c-563e8388bfd2
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ VisibleGraphicGroups: ["default"]
 Value: 0

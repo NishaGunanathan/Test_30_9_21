@@ -31,7 +31,3 @@ Program: |+1
  result := isBoolean(res) AND res
 RandomSeed: 278
 UUID: 0e038634-1e77-414c-9e1c-85162c871064
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

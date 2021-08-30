@@ -22,5 +22,3 @@ Program: |+1
  obj.~.drawRectangle(layer_of_chart - 1,x_Null,y_Null,3,-round(40*factor),color,-1)
 RandomSeed: 61
 UUID: 509d08db-f6a9-417a-84fd-f16a790d1425
-$IconAttributes:
- CurrIconNo: 0

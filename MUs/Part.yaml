@@ -24,22 +24,25 @@ RelabelCtrl:
 RenameCtrl:
 ResetDestinationWhenAtDestination: true
 RouteWeightingAttr: ""
-SelectCtrl:
-StatusWithIcons: true
 UUID: daa9ed3c-4d75-4552-9a02-601a75edfd43
-VectorgraphicsActive: true
-VectorgraphicsAnilineDirection: "Lengthwise"
-VectorgraphicsBorderColor: 1334412
-VectorgraphicsBorderWidth: 2
-VectorgraphicsColor: 3313342
-VectorgraphicsShowDirectionArrow: false
-VectorgraphicsShowState: true
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ MaterialActive: false
+ Mirror: [false,false,false]
+ Poses:
+ Rotation: [0,0,0,-1]
+ ScaleAutomatically: true
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,0.4,0]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [0,0,0]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: false
 $IconArray:
 -
  Name: "Operational"
@@ -63,7 +66,6 @@ $IconArray:
  - gIAARrzcMo6+Mo6+Mo6+RrzcFFyMMo6+Mo6+Mo6+RrzcFFyMMo6+Mo6+Mo6+FFyMgIAA
  - gIAARrzcFFyMFFyMFFyMRrzcFFyMFFyMFFyMFFyMRrzcFFyMFFyMFFyMFFyMFFyMgIAA
  - gIAAgIAAgIAAgIAAgIAAFFyMFFyMgIAAgIAAgIAAFFyMFFyMgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Waiting"
  Transparent: true
@@ -86,4 +88,3 @@ $IconArray:
  - gIAARrzcAP//AP//AP//RrzcFFyMAP//AP//AP//RrzcFFyMAP//AP//AP//FFyMgIAA
  - gIAARrzcFFyMFFyMFFyMRrzcFFyMFFyMFFyMFFyMRrzcFFyMFFyMFFyMFFyMFFyMgIAA
  - gIAAgIAAgIAAgIAAgIAAFFyMFFyMgIAAgIAAgIAAFFyMFFyMgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1

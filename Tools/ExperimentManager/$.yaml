@@ -8,6 +8,8 @@ PermitDeleteCtrl:
 RenameCtrl:
 RootFolder: true
 UUID: ebd8935e-8264-4ea8-b527-e30c6957a21c
+3D:
+ BackgroundColor: -1
 Password:
 LibInfo:
  Name: "Experiment Manager"

@@ -5,10 +5,6 @@ Label: ""
 Name: IntermediateResults
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 125f9902-b950-468f-9bc5-7008b89ad1c2
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: isOpen

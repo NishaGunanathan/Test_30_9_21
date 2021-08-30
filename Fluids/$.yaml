@@ -7,6 +7,8 @@ Name: Fluids
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 21ebac6d-189b-4d95-9af7-318091c182f3
+3D:
+ BackgroundColor: -1
 $Nodes:
 - 82e3774a-a546-4876-8c00-620a48acc9cb
 - 550ef357-092f-4990-93b8-3544dfca08a9

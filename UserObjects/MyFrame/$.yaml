@@ -1,10 +1,8 @@
 InternalClassType: Frame
-AxesOrigin: [140,40]
-BackgroundColor: 16777215
 ChangePathCtrl:
 CloseCtrl:
 ConnectCtrl:
-ConstructorCtrl: "self.OnCreate"
+ConstructorCtrl:
 Coordinate3D: [0,0,0]
 CreateIn3D: true
 DestructorCtrl:
@@ -19,23 +17,50 @@ PermitDeleteCtrl:
 RelabelCtrl:
 RenameCtrl:
 ReplacementMode: "merge"
-RepresentationMode: "Contents"
-RotateAroundRefPoint: true
-RotateMUs: true
-ScalingFactor: 0.05
-SelectCtrl:
 ShiftcalendarObject:
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
-StatusWithIcons: false
 UUID: 51c058dd-4057-4d20-99d4-fbddb2199ea3
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ BackgroundColor: -1
+ CameraAnimations:
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ InternalGraphicGroups: []
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ NameLabelEnabled: false
+ NameLabelPosition: [-1,-1,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Visible graphics"
+ PlanningView: false
+ PointCloudPath: ""
+ PointCloudPosition: [0,0,0]
+ PointCloudRotation: [0,0,0,-1]
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowBasePlate: true
+ ShowConnections: true
+ ShowContent: true
+ ShowExternalGraphics: false
+ ShowGrid: true
+ ShowLabels: true
+ ShowNames: true
+ ShowPointClouds: false
+ ShowShadows: false
+ ShowSky: false
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Default"
@@ -82,7 +107,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Operational"
  Transparent: true
@@ -129,29 +153,11 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 $CustomAttributes:
 -
  Name: Tooltip
  DataType: object
  Value: "self.Comment"
--
- Name: OnCreate
- DataType: method
- RandomSeed: 37
- Value: |+1
-  param onCreate3D: boolean
-  if onCreate3D and Class = void
-  	_3D.deleteGraphicGroup("deco")
-  	_3D.deletePlainGraphics
-  	_3D.ShowContent := true
-  	self.~.ConstructorCtrl := void
-  	self.~.deleteAttr("OnCreate")
-  end
-$RepresentationArea: [80,20,100,40]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - bc7b0c44-9243-40b6-91f9-a345f344d99d
 - 4c34e342-e775-4e84-901e-6ff461a59261

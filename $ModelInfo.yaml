@@ -7,7 +7,7 @@ ModelSettings:
  DateFormat: 1
  ConnectorDrawing: true
  AutoConnect: true
- GridXY: [20,20]
+ 3DOnlyModel: true
  InterpStack: 5000
  InterpChain: 10000
  InterpSuspended: 5000

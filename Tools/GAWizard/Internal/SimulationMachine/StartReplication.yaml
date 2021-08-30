@@ -17,10 +17,6 @@ Program: |+1
  end
 RandomSeed: 475
 UUID: a2144ba9-b03c-4afa-a83b-4cb6c559c2a2
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: ErrorHandler

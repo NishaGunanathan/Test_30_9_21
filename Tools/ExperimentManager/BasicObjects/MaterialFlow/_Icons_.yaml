@@ -17,15 +17,7 @@ Program: ""
 RandomSeed: 362
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
-StatusWithIcons: false
 UUID: 4e6ce141-6d28-4fd1-bb8e-60e6ded17a84
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -36,4 +28,3 @@ $IconArray:
  - /wAA/wAA/wAA
  - /wAA/wAA/wAA
  - /wAA/wAA/wAA
- NumAniEvents: 1

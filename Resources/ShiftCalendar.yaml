@@ -16,17 +16,34 @@ PauseCtrl:
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
-StatusWithIcons: true
 UnplannedCtrl:
 UUID: 54d397bc-9292-4deb-8baa-f477d6687bf3
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ NameLabelEnabled: true
+ NameLabelPosition: [-1,-1,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ StatesOrientation: "Horizontal"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,0.1]
+  HorizontalStatesScale: [1,1,0.1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,0]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Default"
@@ -73,7 +90,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Waiting"
  Transparent: true
@@ -119,7 +135,6 @@ $IconArray:
  - gIAA7Ozs/v7+pTBCVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqiIiIgIAA
  - gIAAvr6+iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Operational"
  Transparent: true
@@ -165,7 +180,6 @@ $IconArray:
  - gIAA7Ozs/v7+pTBCVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqiIiIgIAA
  - gIAAvr6+iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Pause"
  Transparent: true
@@ -211,7 +225,6 @@ $IconArray:
  - gIAA7Ozs/v7+pTBCVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqiIiIgIAA
  - gIAAvr6+iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Unplanned"
  Transparent: true
@@ -257,7 +270,6 @@ $IconArray:
  - gIAA7Ozs/v7+pTBCVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqiIiIgIAA
  - gIAAvr6+iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 $Resources:
 $ShiftPlan:
 - ["Shift-1",6:00:00,14:00:00,true,true,true,true,true,null,null,"9:00-9:15; 12:00-12:45"]

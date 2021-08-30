@@ -8,6 +8,8 @@ Name: BasicObjects
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 692db35a-0f8a-432f-980f-0aec58626279
+3D:
+ BackgroundColor: -1
 $Nodes:
 - c313a500-3a5d-4f37-bbcd-74ae95e7e43b
 - f9833a28-273f-4b86-9a79-7f79ed317193

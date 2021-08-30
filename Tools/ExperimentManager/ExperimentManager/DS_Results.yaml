@@ -20,8 +20,3 @@ Program: |+1
  DS_Output.appendRow(result)
 RandomSeed: 189
 UUID: 2c82fb48-ad52-48a2-8754-d3afac1cde33
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

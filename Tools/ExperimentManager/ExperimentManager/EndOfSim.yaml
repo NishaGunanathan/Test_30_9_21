@@ -113,5 +113,3 @@ Program: |+1
  -- DetailedResults.refillDialog -- It is not needed since refilldialog is already done in CalcStatistics4Exp and calcTableStatistics4Exp
 RandomSeed: 186
 UUID: cd3cfb93-8cbb-41f8-af71-f3b529d93c9b
-$IconAttributes:
- CurrIconNo: 8

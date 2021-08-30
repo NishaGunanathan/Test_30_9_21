@@ -15,17 +15,22 @@ OpenCtrl:
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
-StatusWithIcons: true
 UUID: 26658a2b-1ae4-4932-be86-f618bedb3bb5
 Value: true
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: true
+ GraphicGroupNames: ["default","true","false"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ VisibleGraphicGroups: ["true","default"]
 $IconArray:
 -
  Name: "true1"
@@ -55,7 +60,6 @@ $IconArray:
  - gIAAgIAAi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isr4tKgIAA
  - gIAAgIAAgIAAr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "false1"
  RefPoint: [0,0]
@@ -84,7 +88,6 @@ $IconArray:
  - gIAAgIAAi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isi2Isr4tKgIAA
  - gIAAgIAAgIAAr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKr4tKgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "true2"
  RefPoint: [0,0]
@@ -110,7 +113,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "false2"
  RefPoint: [0,0]
@@ -136,4 +138,3 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1

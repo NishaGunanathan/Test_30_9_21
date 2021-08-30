@@ -14,5 +14,3 @@ Program: |+1
  OnObject._BNanalysed := messageBox(message,48,12) = 16
 RandomSeed: 65
 UUID: 1ac182d3-2f88-4c9c-9674-67715447e854
-$IconAttributes:
- CurrIconNo: 0

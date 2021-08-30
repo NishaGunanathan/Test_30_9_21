@@ -67,8 +67,3 @@ Program: |+1
  --_Protocol[4, localExp] := rootfolder.Localization.getMessage(189,countRules,"","") -- $1 rules were applied.
 RandomSeed: 283
 UUID: f86677ac-ae34-46de-a8a5-01f8f5859a00
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

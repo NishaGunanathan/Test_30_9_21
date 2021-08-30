@@ -9,10 +9,4 @@ Program: |+1
  -- The user defined preparation method was executed.
  messageBox(rootfolder.localization.getText(173),1,4) -- info
 RandomSeed: 484
-SelectCtrl:
 UUID: 3d32d112-e9c2-4ae2-bf7b-8cc19129510e
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

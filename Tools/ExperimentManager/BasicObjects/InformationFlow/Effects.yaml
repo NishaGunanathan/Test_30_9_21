@@ -2,13 +2,7 @@ InternalClassType: DataTable
 Coordinate3D: [0,0,0]
 Name: Effects
 Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
-RotateAroundRefPoint: true
 UUID: 02786894-49b4-467b-83bb-bb630010bbd9
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [0.5,0,0,0.5]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"

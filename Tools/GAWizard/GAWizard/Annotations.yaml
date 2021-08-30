@@ -3,10 +3,6 @@ Coordinate3D: [37.3,-17.35,0]
 Name: Annotations
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: c0ff98f1-57ee-4577-9ec5-e6f61de281f4
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: "examples for the column index: SingleProc12.proctime, mytab[2,3]"
  ListFormat:

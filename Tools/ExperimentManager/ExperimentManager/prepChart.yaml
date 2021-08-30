@@ -249,8 +249,3 @@ Program: |+1
  Chart.annotations.insertList(1,1, AnnotationsTab.copy({1,1}..{7,*}))
 RandomSeed: 193
 UUID: 749fef26-68b3-4815-80b6-748cf4744a5d
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

@@ -4,13 +4,7 @@ Coordinate3D: [0,0,0]
 Name: Design
 OpenCtrl:
 Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
-RotateAroundRefPoint: true
 UUID: ebb16d2a-39e5-44af-b367-da5a2f049686
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [0.5,0,0,0.5]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"

@@ -40,5 +40,3 @@ Program: |+1
  &RunProcess.executeNewCallChain
 RandomSeed: 356
 UUID: f241dc24-e34d-4dac-bbbe-b9c97069844b
-$IconAttributes:
- CurrIconNo: 0

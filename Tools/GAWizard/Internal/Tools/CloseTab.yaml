@@ -20,10 +20,4 @@ Program: |+1
  dialogObj.setCaption(ButName,rootfolder.Localization.getText(6))--"Open"
 
 RandomSeed: 490
-SelectCtrl:
 UUID: 65d3b042-5663-49e6-8f56-39956cb1c0ce
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

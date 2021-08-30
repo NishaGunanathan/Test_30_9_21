@@ -250,5 +250,3 @@ Program: |+1
  end -- inspect State = "ready"
 RandomSeed: 187
 UUID: 76a2408b-ce7d-491d-8c74-b12057f5f234
-$IconAttributes:
- CurrIconNo: 3

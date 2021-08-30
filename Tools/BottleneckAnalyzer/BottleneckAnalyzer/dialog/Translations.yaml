@@ -3,10 +3,6 @@ Coordinate3D: [-9.65,14,0]
 Name: Translations
 Origin: d5f4f2e4-b518-43b7-a30f-affa0a77e467
 UUID: 4f5d945e-e8e5-4caf-84c8-884fe648033e
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: "Translation of Index_Menu row 36, Separator_Menu row 38"
  ShowComment: true

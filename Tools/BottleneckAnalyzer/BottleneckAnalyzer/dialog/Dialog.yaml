@@ -12,11 +12,6 @@ Name: Dialog
 Origin: b99ba56c-7c3a-404c-9397-5259d25cbcf6
 ShowStandardButtons: true
 UUID: 09959c16-f6a1-42e7-8dae-ac206b7d92c3
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: callback

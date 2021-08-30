@@ -21,7 +21,6 @@ OpenCtrl:
 PlausibilityCtrl:
 RenameCtrl:
 SaveAsRichedit: true
-SelectCtrl:
 Text: "W"
 Transparent: false
 UUID: 3793121c-1d9e-45af-8bc3-4fe89e0a8058

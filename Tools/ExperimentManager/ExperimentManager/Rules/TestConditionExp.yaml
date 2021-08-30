@@ -40,8 +40,3 @@ Program: |+1
  result := executeSilent(to_str("-> boolean return ",CompStr))
 RandomSeed: 294
 UUID: 24e3b8df-66a0-4ce6-915b-abdbc678ae3f
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

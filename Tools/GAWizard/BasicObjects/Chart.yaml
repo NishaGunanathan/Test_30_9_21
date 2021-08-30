@@ -58,13 +58,10 @@ OpenCtrl:
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
 Rotation: 180
 SampleInterval: 1:00
 Scrollbar: false
-SelectCtrl:
 SizeInFrame: [2,2]
-StatusWithIcons: true
 StepCurve: false
 StepSize: 1
 Subtitle: ""
@@ -86,11 +83,6 @@ YLog: false
 YScaleMax: -1e+308
 YScaleMin: 1e+308
 ZLabel: ""
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -137,7 +129,6 @@ $IconArray:
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
- NumAniEvents: 1
 -
  Name: "icon3"
  RefPoint: [0,0]
@@ -183,7 +174,6 @@ $IconArray:
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
- NumAniEvents: 1
 $Annotations:
 $Colors:
 - 0x0

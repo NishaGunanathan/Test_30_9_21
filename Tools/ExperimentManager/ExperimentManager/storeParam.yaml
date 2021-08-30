@@ -51,7 +51,3 @@ Program: |+1
  next -- j input value
 RandomSeed: 219
 UUID: 20a9dfd0-e9b5-4a1f-aa3f-672b3bcc5ec5
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

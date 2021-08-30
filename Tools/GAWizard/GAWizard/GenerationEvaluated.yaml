@@ -8,8 +8,3 @@ Program: |+1
  var allKids:table := Individuals
 RandomSeed: 401
 UUID: 684ae1e9-7455-4db3-8581-2eb3d4311114
-$IconAttributes:
- CurrIconNo: 3
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

@@ -6,8 +6,6 @@ Name: ReportObject
 Origin: da17b5d1-310f-48eb-936d-ca53f206f8ae
 TocLevels: 3
 UUID: 5edd660e-99ad-4906-838e-fc64699577e8
-$IconAttributes:
- CurrIconNo: 1
 $CustomAttributes:
 -
  Name: DrainStatistics

@@ -30,7 +30,3 @@ Program: |+1
  ~.DistributedSimulation.updateMachinesTable(RemoteTable)
 RandomSeed: 319
 UUID: b4e32d03-ecc5-4c3f-affa-c92222d764ca
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

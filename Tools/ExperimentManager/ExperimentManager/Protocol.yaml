@@ -4,10 +4,6 @@ CreateIn3D: false
 Name: Protocol
 Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
 UUID: 5f4c06a6-1524-4e0c-a87e-554e2f9841e5
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: "Overview of all executed experiments and their parametrizations."
  ShowComment: true

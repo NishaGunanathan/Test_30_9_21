@@ -22,8 +22,3 @@ Program: |+1
  GAWizard.setSensitive("SimulateWith3D_CB", isSet)
 RandomSeed: 444
 UUID: 850e5887-66a5-45d1-bb71-aaa4d57d129f
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

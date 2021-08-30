@@ -25,8 +25,3 @@ Program: |+1
  exitApplication
 RandomSeed: 208
 UUID: ab674d27-30e2-479c-8059-ff4f5747af45
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

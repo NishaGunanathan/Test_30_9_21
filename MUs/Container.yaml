@@ -35,29 +35,46 @@ RenameCtrl:
 ResetDestinationWhenAtDestination: true
 ResourceType: "Transport"
 ResStatOn: true
-RotateMUs: true
 RouteWeightingAttr: ""
-SelectCtrl:
 ShiftcalendarObject:
-StatusWithIcons: true
 UUID: 3d9e808f-25a2-4131-875c-e725c251d3f1
-VectorgraphicsActive: true
-VectorgraphicsAnilineDirection: "Lengthwise"
-VectorgraphicsBorderColor: 2652320
-VectorgraphicsBorderWidth: 2
-VectorgraphicsColor: 10538462
-VectorgraphicsShowDirectionArrow: false
-VectorgraphicsShowState: true
 WorkpieceCarrierActive: false
 XDim: 2
 YDim: 2
 ZDim: 1
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: ""
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ MaterialActive: true
+ MaterialAmbientColor: 3381708
+ MaterialDiffuseColor: 3381708
+ MaterialEmissiveColor: 0
+ MaterialShininess: 0.267
+ MaterialSpecularColor: 5855577
+ MaterialTransparency: 0
+ Mirror: [false,false,false]
+ MUAnimationAreaEnabled: true
+ MUAnimationAreaMURotation: [0,0,0,-1]
+ MUAnimationAreaOrientation: "XY plane"
+ MUAnimationAreaRelativeCenter: [0,0,1]
+ MUAnimationAreaRelativeSize: [1,1]
+ MUAnimations:
+ MUSideToAttach: "Center bottom"
+ Poses:
+ Rotation: [0,0,0,-1]
+ ScaleAutomatically: true
+ ShowContent: true
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,0.6,0]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [0,0,0]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: false
 $IconArray:
 -
  Name: "Operational"
@@ -85,10 +102,6 @@ $IconArray:
  - Mo6+AAAAMo6+FFyMFFyMFFyMMo6+AAAAMo6+FFyMFFyMFFyMMo6+AAAAMo6+FFyMFFyMFFyMMo6+AAAAMo6+
  - Mo6+Mo6+Mo6+FFyMFFyMFFyMMo6+Mo6+Mo6+FFyMFFyMFFyMMo6+Mo6+Mo6+FFyMFFyMFFyMMo6+Mo6+Mo6+
  - Mo6+Mo6+Mo6+gIAAgIAAgIAAMo6+Mo6+Mo6+gIAAgIAAgIAAMo6+Mo6+Mo6+gIAAgIAAgIAAMo6+Mo6+Mo6+
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [10,10]
 -
  Name: "Waiting"
  Transparent: true
@@ -115,7 +128,3 @@ $IconArray:
  - AP//AAAAAP//FFyMFFyMFFyMAP//AAAAAP//FFyMFFyMFFyMAP//AAAAAP//FFyMFFyMFFyMAP//AAAAAP//
  - AP//AP//AP//FFyMFFyMFFyMAP//AP//AP//FFyMFFyMFFyMAP//AP//AP//FFyMFFyMFFyMAP//AP//AP//
  - AP//AP//AP//gIAAgIAAgIAAAP//AP//AP//gIAAgIAAgIAAAP//AP//AP//gIAAgIAAgIAAAP//AP//AP//
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [10,10]

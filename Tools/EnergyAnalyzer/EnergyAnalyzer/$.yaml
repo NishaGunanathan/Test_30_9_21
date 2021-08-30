@@ -1,6 +1,4 @@
 InternalClassType: Frame
-AxesOrigin: [300,300]
-BackgroundColor: 16777215
 ChangePathCtrl:
 CloseCtrl:
 ConnectCtrl:
@@ -19,23 +17,50 @@ PermitDeleteCtrl:
 RelabelCtrl:
 RenameCtrl:
 ReplacementMode: "merge"
-RepresentationMode: "Icon"
-RotateAroundRefPoint: true
-RotateMUs: true
-ScalingFactor: 0.05
-SelectCtrl:
 ShiftcalendarObject:
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
-StatusWithIcons: false
 UUID: c107b395-268e-4021-9289-84ce1240021f
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ BackgroundColor: -1
+ CameraAnimations:
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ InternalGraphicGroups: []
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ NameLabelEnabled: true
+ NameLabelPosition: [-1,-1.15,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "(None)"
+ PlanningView: false
+ PointCloudPath: ""
+ PointCloudPosition: [0,0,0]
+ PointCloudRotation: [0,0,0,-1]
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowBasePlate: true
+ ShowConnections: false
+ ShowContent: true
+ ShowExternalGraphics: true
+ ShowGrid: true
+ ShowLabels: false
+ ShowNames: true
+ ShowPointClouds: false
+ ShowShadows: false
+ ShowSky: false
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Default"
@@ -82,7 +107,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Active"
  RefPoint: [20,20]
@@ -128,7 +152,6 @@ $IconArray:
  - 7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+iIiI
  - 7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+iIiI
  - 7OzsiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiI
- NumAniEvents: 1
 -
  Name: "ClassLibrary"
  RefPoint: [15,15]
@@ -151,78 +174,6 @@ $IconArray:
  - gIAAgIAAgIAAeLniU7ToElbZfZjHgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAc6vcMlm9dJHFgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAMlm9dJHFgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
-$Dashboard:
- Active: false
- Position: [-25,38]
- Size: [163,69]
- BorderColor: 0xff0000
- BackgroundColor: 0xffffff
- Elements:
- -
-  Value: "Consumption"
-  Position: [160,4]
-  Type: "Text"
-  Alignment: "Right"
-  Color: 0x0
-  Transparent: false
-  DecimalPlaces: 1
-  DisplayAsPercentage: false
- -
-  Value: "powerConsumption"
-  Position: [160,36]
-  Type: "Text"
-  Alignment: "Right"
-  Color: 0x0
-  Transparent: false
-  DecimalPlaces: 1
-  DisplayAsPercentage: false
- -
-  Value: "maxPowerConsumption"
-  Position: [160,52]
-  Type: "Text"
-  Alignment: "Right"
-  Color: 0x0
-  Transparent: false
-  DecimalPlaces: 1
-  DisplayAsPercentage: false
- -
-  Value: "Maximum [kW]:"
-  Position: [4,52]
-  Type: "Static Text"
-  Alignment: "Left"
-  Color: 0x0
-  Transparent: false
- -
-  Value: "Power input [kW]:"
-  Position: [4,36]
-  Type: "Static Text"
-  Alignment: "Left"
-  Color: 0x0
-  Transparent: false
- -
-  Value: "Energy [kWh]:"
-  Position: [4,4]
-  Type: "Static Text"
-  Alignment: "Left"
-  Color: 0x0
-  Transparent: false
- -
-  Value: "Operational [kWh]:"
-  Position: [10,20]
-  Type: "Static Text"
-  Alignment: "Left"
-  Color: 0x0
-  Transparent: false
- -
-  Value: "ConsumptionOperational"
-  Position: [160,20]
-  Type: "Text"
-  Alignment: "Right"
-  Color: 0x0
-  Transparent: false
-  DecimalPlaces: 1
-  DisplayAsPercentage: false
 $CustomAttributes:
 -
  Name: MonitoringActive
@@ -608,10 +559,6 @@ $UserPopupMenu:
  - ["-",""]
  - ["?rootfolder.Localization.getText(28)","showVisualization"]
  - ["?rootfolder.Localization.getText(29)","delVisualize"]
-$RepresentationArea: [0,0,0,0]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - d29d7e16-f67e-4dbe-8eaf-8af2ab4889c3
 - a498970d-ef04-4862-9dd6-d53c4ff6b983

@@ -1,44 +1,90 @@
 InternalClassType: FootPath
-AnimateOnEveryXthPixel: 2
-BaseHeight: 0.004
 ChangePathCtrl:
-Color: 8421504
 ConnectCtrl:
 ConstructorCtrl:
 Coordinate3D: [0,0,0]
 CreateIn3D: true
-CurveActive: true
 DestructorCtrl:
 DragDropCtrl:
 InitCtrl:
 Label: ""
 Length: 2
-MidLine: 1
 MoveInFrameCtrl:
 MoveToFolderCtrl:
 Name: FootPath
-ObjectAngle: 0
-ObjectMirrored: false
 OpenCtrl:
-PenColor: 49151
-PenWidth: 2
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-RotateMovables: true
-SelectCtrl:
-StatusWithIcons: false
 TransferLengthToObject: true
-Transparent: false
 UUID: 87eb569a-c0b3-45cd-ac24-1f18312fd339
 Width: 0.9
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniGravityMode: true
+ AnimationObject: ""
+ AnimationOffset: [0,0,0]
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ BaseHeight: 0.004
+ ExcludeFromShowContentOfLocation: false
+ ExtConfiguration:
+ -
+  Name: "Legs_1"
+  Extrusion Profile: [[-0.5,-0.05],[-0.4,-0.05],[-0.4,0.05],[-0.5,0.05],[-0.5,-0.05]]
+  Configuration Type: 20
+  Offsets: [-0.008,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xa4a0a0,0x292929,0x0,0x0,0,0]
+ -
+  Name: "Legs_2"
+  Extrusion Profile: [[0.4,-0.05],[0.5,-0.05],[0.5,0.05],[0.4,0.05],[0.4,-0.05]]
+  Configuration Type: 20
+  Offsets: [-0.008,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xa4a0a0,0x292929,0x0,0x0,0,0]
+ -
+  Name: "Lanes"
+  Extrusion Profile: [[-0.45,-0.008],[0.45,-0.008],[0.45,0],[-0.45,0],[-0.45,-0.008]]
+  Configuration Type: 2
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xa4a0a0,0x292929,0x0,0x0,0,0]
+ -
+  Name: "Frame_2"
+  Extrusion Profile: [[0.44999999999999996,-0.008],[0.49999999999999994,-0.008],[0.49999999999999994,0],[0.44999999999999996,0],[0.44999999999999996,-0.008]]
+  Configuration Type: 0
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xc0ff,0x292929,0x0,0x0,0,0]
+ -
+  Name: "Frame_1"
+  Extrusion Profile: [[-0.5,-0.008],[-0.45,-0.008],[-0.45,0],[-0.5,0],[-0.5,-0.008]]
+  Configuration Type: 0
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xc0ff,0x292929,0x0,0x0,0,0]
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimations:
+ NameLabelEnabled: false
+ NameLabelPosition: [0,-0.45,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ ShowSensors: true
+ VisibleGraphicGroups: ["default"]
 $IconArray:
 -
  Name: "Default"
@@ -64,10 +110,6 @@ $IconArray:
  - gIAAgIAAgIAAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAgIAAgIAA
  - gIAAgIAAgIAAAL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//gIAAgIAAgIAA
  - gIAAgIAAgIAAAL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//AL//gIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [3,9,37,9]
 $CurveSegments:
 - 0
 - [0,2,0]

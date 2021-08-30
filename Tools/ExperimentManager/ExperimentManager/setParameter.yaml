@@ -30,8 +30,3 @@ Program: |+1
  DefSeed4Run(ExpNo,ObsNo)
 RandomSeed: 241
 UUID: 84d55992-9da3-4826-a861-3d1f4ff74091
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

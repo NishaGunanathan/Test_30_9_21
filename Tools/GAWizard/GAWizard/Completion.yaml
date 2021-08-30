@@ -14,8 +14,3 @@ Program: |+1
  end
 RandomSeed: 405
 UUID: bc1544f0-a3e0-4775-9ca2-e6cc2a4cf762
-$IconAttributes:
- CurrIconNo: 3
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

@@ -3,10 +3,6 @@ Coordinate3D: [22,-22.35,0]
 Name: EvolutionTab
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 85c22295-1adb-40fe-959f-8a5d26e8c3f8
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: ~
  ListFormat:

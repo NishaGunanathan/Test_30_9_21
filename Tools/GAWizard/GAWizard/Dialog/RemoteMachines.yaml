@@ -3,10 +3,6 @@ Coordinate3D: [10,-1,0]
 Name: RemoteMachines
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 7c9f8c11-c7a4-49c4-96ed-6af4fff9330f
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: ~
  ListFormat:

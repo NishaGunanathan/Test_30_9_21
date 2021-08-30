@@ -24,21 +24,37 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Production"
 ResStatOn: false
-RotateAroundRefPoint: true
-RotateMUs: true
-SelectCtrl:
 Station:
-StatusWithIcons: false
 SupportedServices: []
 UnloadingTime: 0
 UUID: c37df150-3003-483c-8736-03b82e6e8fdc
 WorkerStaysHere: true
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: ""
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default","assigned"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimationAreaAbsoluteCenter: [0,0,0.005]
+ MUAnimationAreaAbsoluteSize: [0.82,0.82]
+ MUAnimationAreaEnabled: true
+ MUAnimationAreaMURotation: [0,0,0,-1]
+ MUAnimationAreaOrientation: "XY plane"
+ MUAnimations:
+ NameLabelEnabled: false
+ NameLabelPosition: [-0.5,-0.6,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,0.5]
+ ObstacleForWorker: "(None)"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ VisibleGraphicGroups: ["default"]
 $IconArray:
 -
  Name: "assigned"
@@ -68,10 +84,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAhISEa2trvb29vb29vb29vb29////hISEgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAhISEa2trvb29vb29////hISEgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAvb29hISEhISEvb29gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [9,11]
 -
  Name: "unassigned"
  Transparent: true
@@ -100,7 +112,3 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAhISEa2tr////////////////a2trhISEgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAhISEa2tr////vb29a2trhISEgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAvb29hISEhISEvb29gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [9,11]

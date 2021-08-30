@@ -7,11 +7,6 @@ Name: SelectExp4NumObs
 Origin: 649be7d7-0331-46b8-a973-ae19b8bda02e
 ShowStandardButtons: false
 UUID: 27646bfb-ca37-4e36-9eb8-b012985df9e6
-$IconAttributes:
- CurrIconNo: 2
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: callback

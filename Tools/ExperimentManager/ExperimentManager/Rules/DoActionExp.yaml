@@ -59,8 +59,3 @@ Program: |+1
  next -- row in Action (ActTab)
 RandomSeed: 293
 UUID: 62a3af6a-5089-462d-a423-d4bb82a498d7
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

@@ -12,8 +12,3 @@ Program: |+1
  recording.append(s)
 RandomSeed: 428
 UUID: 8b9e30c3-2fc8-423f-ac39-ce3e1a660623
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

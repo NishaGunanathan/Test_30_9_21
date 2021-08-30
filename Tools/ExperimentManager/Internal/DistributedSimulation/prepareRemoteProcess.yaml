@@ -41,8 +41,3 @@ Program: |+1
  -- Now the value of ~.ModelErrorHandling is the original error handler of the model.
 RandomSeed: 340
 UUID: 28a03a7c-1949-4d52-811e-5d556008edd2
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

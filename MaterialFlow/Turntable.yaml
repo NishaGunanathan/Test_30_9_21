@@ -1,7 +1,5 @@
 InternalClassType: Turntable
-AnimateOnEveryXthPixel: 2
 AutomaticStop: false
-BaseHeight: 1
 BwEntranceCtrl:
 BwEntranceCtrlFront: false
 BwEntranceCtrlRear: true
@@ -9,13 +7,11 @@ BwExitCtrl:
 BwExitCtrlFront: false
 BwExitCtrlRear: true
 ChangePathCtrl:
-Color: 12632256
 ConnectCtrl:
 ConstructorCtrl:
 Coordinate3D: [0,0,0]
 CostingActive: false
 CreateIn3D: true
-CurveActive: true
 DefaultAngle: 0
 DestructorCtrl:
 DragDropCtrl:
@@ -37,17 +33,12 @@ GoToDefaultPosition: false
 InitCtrl:
 Label: ""
 Length: 2
-MidLine: 1
 MoveInFrameCtrl:
 MoveToFolderCtrl:
 MURotationAttribute: ""
 Name: Turntable
-ObjectAngle: 0
-ObjectMirrored: false
 OpenCtrl:
 PauseCtrl:
-PenColor: 0
-PenWidth: 2
 PlausibilityCtrl:
 PullCtrl:
 RandomSeed: 1
@@ -56,28 +47,75 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Transport"
 ResStatOn: true
-RotateAroundRefPoint: true
-RotateMovables: true
-RotateMUs: true
 RotateWhen: "Completely entered"
 RotationPoint: 1
 RotationTimePer90Degrees: 4
-SelectCtrl:
 ShiftcalendarObject:
 Speed: 1
-StatusWithIcons: false
 TargetCtrl:
 TransferLengthToObject: true
-Transparent: false
 UnplannedCtrl:
 UUID: def86a5d-2fdc-4843-baa2-ba3ef6b09e93
 Width: 1
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniGravityMode: false
+ AnimationObject: ""
+ AnimationOffset: [0,0,0]
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [1,0,0]
+ BaseHeight: 1
+ ExcludeFromShowContentOfLocation: false
+ ExtConfiguration:
+ -
+  Name: "Lanes"
+  Extrusion Profile: [[-0.475,-0.1],[0.475,-0.1],[0.475,0],[-0.475,0],[-0.475,-0.1]]
+  Configuration Type: 2
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0x2d2d2d,0x292929,0x0,0x0,0,8]
+ -
+  Name: "Frame_2"
+  Extrusion Profile: [[0.475,-0.095],[0.5,-0.095],[0.5,-0.0050000000000000044],[0.475,-0.0050000000000000044],[0.475,-0.095]]
+  Configuration Type: 0
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xcc6633,0xcc6633,0x595959,0x0,0,68]
+ -
+  Name: "Frame_1"
+  Extrusion Profile: [[-0.5,-0.095],[-0.475,-0.095],[-0.475,-0.0050000000000000044],[-0.5,-0.0050000000000000044],[-0.5,-0.095]]
+  Configuration Type: 0
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xcc6633,0xcc6633,0x595959,0x0,0,68]
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimations:
+ MUSideToAttach: "Bottom"
+ NameLabelEnabled: false
+ NameLabelPosition: [0,-0.5,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Visible graphics"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ ShowSensors: true
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: false
 $IconArray:
 -
  Name: "Default"
@@ -124,10 +162,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [4,20,35,20]
 $CurveSegments:
 - 0
 - [0,2,0]

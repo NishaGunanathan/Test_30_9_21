@@ -93,8 +93,3 @@ Program: |+1
  Individuals := void -- 16.0.1
 RandomSeed: 456
 UUID: da292a85-85b7-434c-acaf-3aa1051075eb
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

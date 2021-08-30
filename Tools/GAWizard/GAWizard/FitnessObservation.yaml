@@ -4,9 +4,5 @@ Label: ""
 Name: FitnessObservation
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: d4e9226b-40df-413f-bd56-9c2f2f6d7c74
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: ~

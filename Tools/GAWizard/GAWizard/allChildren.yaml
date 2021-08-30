@@ -3,10 +3,6 @@ Coordinate3D: [37.3,-22.35,0]
 Name: allChildren
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: d6b92142-db9f-4dcb-9e16-43fad6bdad75
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  ListFormat:
   ColumnIndex: true

@@ -7,6 +7,8 @@ Name: MUs
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 07de0beb-80ac-4915-af66-891417ffb389
+3D:
+ BackgroundColor: -1
 $Nodes:
 - daa9ed3c-4d75-4552-9a02-601a75edfd43
 - 3d9e808f-25a2-4131-875c-e725c251d3f1

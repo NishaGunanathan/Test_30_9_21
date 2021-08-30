@@ -47,8 +47,6 @@ XRange: 1D
 YGrid: false
 YGridLineInterval: 0
 YLabel: "kW"
-$IconAttributes:
- CurrIconNo: 1
 $IconArray:
 -
 -

@@ -39,7 +39,3 @@ Program: |+1
  end
 RandomSeed: 235
 UUID: 5fcb8e8d-3051-4f70-84c3-d03e41947929
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

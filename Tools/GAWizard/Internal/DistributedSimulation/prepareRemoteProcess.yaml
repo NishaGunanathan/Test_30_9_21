@@ -37,8 +37,3 @@ Program: |+1
  --fireSimTalkMessage("Remote process was prepared");
 RandomSeed: 466
 UUID: 7b6b5101-1d2b-4890-a5f6-00bae8e7b402
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

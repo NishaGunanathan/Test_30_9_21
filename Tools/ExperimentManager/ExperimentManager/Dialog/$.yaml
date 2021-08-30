@@ -1,17 +1,10 @@
 InternalClassType: Frame
-BackgroundColor: 16777215
 Coordinate3D: [0.5,0,0]
 CreateIn3D: false
 Name: Dialog
 Origin: a4bb54fd-d98d-4a1d-9cf6-b6b4164b0104
 ReplacementMode: "exchange"
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
 UUID: f20fc2bc-97b5-4760-b226-db8df966b7df
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 1
 $CustomAttributes:
 -
  Name: startDateExpRun
@@ -59,9 +52,6 @@ $CustomAttributes:
  Name: StudyExecuted
  DataType: boolean
  Value: false
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - be3d7c3f-8779-4790-b52a-69080d415686
 - 893d3a52-5368-4c46-ab14-3cef85aacae4

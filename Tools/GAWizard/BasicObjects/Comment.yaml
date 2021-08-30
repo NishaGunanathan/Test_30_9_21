@@ -21,7 +21,6 @@ OpenCtrl:
 PlausibilityCtrl:
 RenameCtrl:
 SaveAsRichedit: true
-SelectCtrl:
 Text: "Text"
 Transparent: false
 UUID: 96e6bc5e-2df8-44e7-a519-106d41864b87

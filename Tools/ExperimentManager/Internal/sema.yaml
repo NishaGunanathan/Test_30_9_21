@@ -18,7 +18,6 @@ Name: sema
 OpenCtrl:
 PlausibilityCtrl:
 RenameCtrl:
-SelectCtrl:
 ShowDataType: false
 ShowUnit: true
 StatisticsActive: false

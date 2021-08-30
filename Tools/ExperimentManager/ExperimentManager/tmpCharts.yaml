@@ -3,10 +3,6 @@ Coordinate3D: [56.150000000000006,-8,0]
 Name: tmpCharts
 Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
 UUID: 6e4f2cb8-487c-4ab7-a1ad-ef168df113f2
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: removeTmpCharts

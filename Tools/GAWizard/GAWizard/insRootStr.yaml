@@ -38,10 +38,4 @@ Program: |+1
  	return to_str("root.",obj_str)
  end
 RandomSeed: 392
-SelectCtrl:
 UUID: 458ad8b0-f083-4d8f-8986-31ae7dd73a3c
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

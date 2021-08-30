@@ -50,7 +50,3 @@ Program: |+1
  resStats.sort(colSort,"down")
 RandomSeed: 64
 UUID: 1134bb83-c319-479f-af83-d0ed751f9322
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

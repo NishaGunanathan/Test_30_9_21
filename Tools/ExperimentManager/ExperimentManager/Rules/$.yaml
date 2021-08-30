@@ -2,14 +2,7 @@ InternalClassType: Frame
 Coordinate3D: [34.85,-39.55,0]
 Name: Rules
 Origin: a4bb54fd-d98d-4a1d-9cf6-b6b4164b0104
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
 UUID: f31fa732-f62e-43cf-8c7b-f61991283e59
-ZoomFactor: 1
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - 9bcb2a42-189a-447d-9d0e-149ccad7078e
 - 1f58d3f4-d823-498e-b4c0-b05c9c6d386a

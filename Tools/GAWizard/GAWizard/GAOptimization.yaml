@@ -13,8 +13,4 @@ OffspringSelection: "1of4"
 Origin: 123b17c4-b7e1-4bfc-9f11-dd4fb638ad42
 TerminationCtrl: "termination"
 UUID: b8879859-2628-478f-8b1f-a32dd8aa1942
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $TaskTable:

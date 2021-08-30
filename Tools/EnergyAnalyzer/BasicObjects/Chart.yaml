@@ -57,13 +57,10 @@ OpenCtrl:
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
 Rotation: 180
 SampleInterval: 1:00
 Scrollbar: false
-SelectCtrl:
 SizeInFrame: [0.8,0.8]
-StatusWithIcons: true
 StepCurve: false
 StepSize: 1
 Subtitle: ""
@@ -85,11 +82,6 @@ YLog: false
 YScaleMax: -1e+308
 YScaleMin: 0
 ZLabel: ""
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "ClassLibrary"
@@ -113,7 +105,6 @@ $IconArray:
  - gIAAgIAAgIAAeLniU7ToElbZfZjHgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAc6vcMlm9dJHFgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAMlm9dJHFgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 $Annotations:
 $Colors:
 - 0xa0a0a0

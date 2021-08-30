@@ -10,8 +10,3 @@ Program: |+1
  return executeSilent(to_str("param a:any -> boolean ",AttrStr,":= a; return true"), newVal)
 RandomSeed: 250
 UUID: 57fd6d18-3795-47ec-abcf-67d5363ad1b1
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

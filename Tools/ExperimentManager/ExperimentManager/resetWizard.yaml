@@ -185,11 +185,6 @@ Program: |+1
  DLGobj.setSensitive("Reset_But",true)
 RandomSeed: 247
 UUID: 3933fa62-16a6-431f-8bb6-ebd1642c3e68
-$IconAttributes:
- CurrIconNo: 3
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: check_InputValues_OutputValues

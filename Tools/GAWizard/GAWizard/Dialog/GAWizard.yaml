@@ -12,8 +12,6 @@ Name: GAWizard
 Origin: 13913f08-7b34-4579-b9df-1cb23c17ab54
 ShowStandardButtons: true
 UUID: df2e7c50-4bd2-469e-adb3-06445d72a9a2
-$IconAttributes:
- CurrIconNo: 3
 $CustomAttributes:
 -
  Name: callback

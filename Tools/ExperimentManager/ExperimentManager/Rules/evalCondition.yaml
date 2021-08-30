@@ -42,7 +42,3 @@ Program: |+1
  result := to_str(result,CondStr,"; result := true")
 RandomSeed: 298
 UUID: 2b66afa0-d4be-4fe6-bfc4-bc4609a33343
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

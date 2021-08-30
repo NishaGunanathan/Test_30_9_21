@@ -5,10 +5,6 @@ Label: ""
 Name: dialog
 Origin: 649be7d7-0331-46b8-a973-ae19b8bda02e
 UUID: 71ea1017-baf7-4388-b832-9be2261f465d
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: callback

@@ -68,8 +68,3 @@ Program: |+1
  obj[0,0]:=""
 RandomSeed: 171
 UUID: 43c9078e-3330-4541-8609-c3ad1de4fcc0
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

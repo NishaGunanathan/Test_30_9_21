@@ -7,6 +7,8 @@ Name: MaterialFlow
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 30b02e97-26ce-473e-af65-5b8f75926fbc
+3D:
+ BackgroundColor: -1
 $Nodes:
 - 4e6ce141-6d28-4fd1-bb8e-60e6ded17a84
 - a4bb54fd-d98d-4a1d-9cf6-b6b4164b0104

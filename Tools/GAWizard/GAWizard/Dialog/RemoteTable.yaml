@@ -3,10 +3,6 @@ Coordinate3D: [6,-1,0]
 Name: RemoteTable
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 54d3d718-a23e-4c2a-942d-d9db4b0170f9
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: isOpen

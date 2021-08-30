@@ -7,11 +7,6 @@ Label: "Experiments"
 Name: Dialog
 Origin: 649be7d7-0331-46b8-a973-ae19b8bda02e
 UUID: b9fa54bb-da1d-414b-bafe-a1bce1d3aee1
-$IconAttributes:
- CurrIconNo: 2
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: callback

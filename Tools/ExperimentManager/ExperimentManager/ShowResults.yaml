@@ -8,8 +8,3 @@ Program: |+1
  Results.openDialog
 RandomSeed: 240
 UUID: 549dcd29-3eac-4440-88f9-e5f02160c1f9
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

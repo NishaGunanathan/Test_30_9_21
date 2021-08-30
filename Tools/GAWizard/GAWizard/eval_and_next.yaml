@@ -81,8 +81,3 @@ Program: |+1
  Dialog.GAWizard.setCaption("currRunR_com",to_str(currRunNo)) -- show current run No
 RandomSeed: 431
 UUID: 9c306c80-3e03-4107-8792-6f1d7c304519
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

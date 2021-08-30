@@ -169,11 +169,6 @@ Program: |+1
  end -- end of evaluation of the current generation
 RandomSeed: 394
 UUID: 225e76eb-8c02-41b9-a120-dbffe312204e
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: infoBoxOpen

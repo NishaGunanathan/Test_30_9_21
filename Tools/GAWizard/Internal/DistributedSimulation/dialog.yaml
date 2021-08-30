@@ -3,8 +3,6 @@ Coordinate3D: [7.1000000000000005,-5.8500000000000005,0]
 Name: dialog
 Origin: 13913f08-7b34-4579-b9df-1cb23c17ab54
 UUID: a477509e-5b89-4f5d-ba29-2889fb3e03f4
-$IconAttributes:
- CurrIconNo: 1
 $CustomAttributes:
 -
  Name: callback

@@ -75,8 +75,3 @@ Program: |+1
  ~.OutputValues.refillDialog
 RandomSeed: 321
 UUID: 9b02fba8-e238-4ba0-bbc1-f322055427f2
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

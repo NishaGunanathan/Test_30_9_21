@@ -117,8 +117,3 @@ Program: |+1
  DetailedResults.refillDialog
 RandomSeed: 218
 UUID: 7a3e9066-01b1-4116-ac9d-251c387ee70d
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

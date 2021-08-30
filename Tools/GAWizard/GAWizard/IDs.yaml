@@ -4,10 +4,6 @@ Label: ""
 Name: IDs
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 1804273c-ff3c-4315-8388-9166e81a20ca
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: |+1
   Columns No is equal to strHash(uniqueIndivStr) mod m.\r

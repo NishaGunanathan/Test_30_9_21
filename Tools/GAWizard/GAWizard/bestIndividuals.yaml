@@ -5,10 +5,6 @@ Label: ""
 Name: bestIndividuals
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: fa02e2f9-857d-4301-8f18-a50ebc9ab664
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: isOpen

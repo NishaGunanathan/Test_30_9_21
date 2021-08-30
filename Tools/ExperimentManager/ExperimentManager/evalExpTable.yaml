@@ -51,8 +51,3 @@ Program: |+1
  Recording.append(rootfolder.Localization.getMessage(119,numParSuccess,numPar,""))
 RandomSeed: 285
 UUID: a0eb4d41-1309-49a4-85cd-8b933efc3fcc
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

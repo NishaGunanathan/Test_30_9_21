@@ -1,20 +1,9 @@
 InternalClassType: Frame
-AxesOrigin: [0,0]
-BackgroundColor: 16777215
 Coordinate3D: [1.3499999999999996,0,0]
 CreateIn3D: false
 Name: Dialog
 Origin: 3c7443dd-78d4-4785-9e7e-a1525e29b1ed
-ShowDisplayPanels: true
-ShowObjectLabels: true
-ShowObjectNames: true
 UUID: f316b938-f1cb-40f9-93a5-5f35c71dcfc0
-ZoomFactor: 1
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: openBB
@@ -93,10 +82,6 @@ $CustomAttributes:
  Value: false
 $UserPopupMenu:
  Active: true
-$RepresentationArea: [0,0,0,0]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true
 $Nodes:
 - e2731d87-6e50-4213-bf90-ad15aece18de
 - df2e7c50-4bd2-469e-adb3-06445d72a9a2

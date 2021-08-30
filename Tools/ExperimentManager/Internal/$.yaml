@@ -8,6 +8,8 @@ Name: Internal
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: ab5ee2a7-8d4d-44ca-a6b2-c85e07440535
+3D:
+ BackgroundColor: -1
 Password: #
 $Nodes:
 - a56a1b39-304e-43e9-86a4-8a9e6f67bce6

@@ -43,9 +43,6 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Production"
 ResStatOn: true
-RotateAroundRefPoint: true
-RotateMUs: true
-SelectCtrl:
 Sequence: "MUs to all Successors"
 SetupAfterNPartsMode: "Before Next Part"
 SetupAfterNumParts: 0
@@ -55,15 +52,58 @@ SetupForType: true
 SetupOnlyWhenEmpty: false
 SetupTime: 0
 ShiftcalendarObject:
-StatusWithIcons: false
 UnplannedCtrl:
 UUID: 4bcdfa63-a286-4cc0-9672-58021c07b779
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: ""
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ ExcludeFromShowContentOfLocation: false
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimations:
+ -
+  Name: "Default"
+  AnchorPoints:
+  - [-0.3,0,1,0,0,0,1,~]
+ -
+  Name: "1"
+  AnchorPoints:
+  - [-0.6,0.3,0,0,0,0,-1,~]
+ -
+  Name: "2"
+  AnchorPoints:
+  - [0.1,0.3,0,0,0,0,-1,~]
+ -
+  Name: "3"
+  AnchorPoints:
+  - [-0.6,-0.2,0,0,0,0,-1,~]
+ -
+  Name: "4"
+  AnchorPoints:
+  - [0.1,-0.2,0,0,0,0,-1,~]
+ MUSideToAttach: "Center bottom"
+ NameLabelEnabled: false
+ NameLabelPosition: [-1,-0.5,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Bounding box"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ StatesOrientation: "Vertical"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,0.5,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.5,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: false
 $IconArray:
 -
  Name: "Default"
@@ -110,16 +150,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [17,20]
- -
-  Coords: [27,8]
- -
-  Coords: [27,20]
- -
-  Coords: [27,32]
 -
  Name: "Operational"
  Transparent: true
@@ -166,16 +196,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [17,20]
- -
-  Coords: [27,8]
- -
-  Coords: [27,20]
- -
-  Coords: [27,32]
 $ProcImp:
  Active: false
  Services:

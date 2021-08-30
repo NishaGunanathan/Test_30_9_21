@@ -30,7 +30,3 @@ Program: |+1
  dialog.open
 RandomSeed: 72
 UUID: d69af764-78a0-45a2-8480-276d89dd5634
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

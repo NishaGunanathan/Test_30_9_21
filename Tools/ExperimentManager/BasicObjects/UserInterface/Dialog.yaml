@@ -22,16 +22,8 @@ OpenModal: false
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
 ShowStandardButtons: true
-StatusWithIcons: true
 UUID: 649be7d7-0331-46b8-a973-ae19b8bda02e
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -79,7 +71,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
 -
  Name: "Icon1"
  RefPoint: [0,0]
@@ -102,7 +93,6 @@ $IconArray:
  - ////VRoqVRoq/wAA/wAA/wAAVRoq/v7+9M2N/wAAVRoq/wAA/wAA/wAAVRoq////
  - ////VRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoq////
  - ////////////////////////////////////////////////////////////////
- NumAniEvents: 1
 -
  Name: "icon3"
  RefPoint: [0,0]
@@ -125,4 +115,3 @@ $IconArray:
  - ////VRoqVRoq/wAA/wAA/wAAVRoq/v7+9M2N/wAAVRoq/wAA/wAA/wAAVRoq////
  - ////VRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoqVRoq////
  - ////////////////////////////////////////////////////////////////
- NumAniEvents: 1

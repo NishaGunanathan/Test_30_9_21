@@ -35,24 +35,54 @@ ReleaseCtrl:
 RenameCtrl:
 ResourceType: "Transport"
 ResStatOn: true
-RotateMUs: true
-SelectCtrl:
 Services: ["StandardService"]
 Shift: ""
 ShiftcalendarObject:
 Speed: 1.5
-StatusWithIcons: true
 UnplannedCtrl:
 UUID: 8a5f3989-0fda-44ef-9ef2-155a0f62f21d
 XDim: 1
 YDim: 1
 ZDim: 1
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: ""
+ GraphicGroupNames: ["default","relaxed0","carrying0","relaxed8","carrying8","relaxed16","carrying16","relaxed23","carrying23","relaxed31","carrying31","relaxed39","carrying39"]
+ GraphicsWhenCarrying: ["carrying0","carrying8","carrying16","carrying23","carrying31","carrying39"]
+ GraphicsWhenEmpty: ["relaxed0","relaxed8","relaxed16","relaxed23","relaxed31","relaxed39"]
+ LockedGraphicGroups: []
+ MaterialActive: true
+ MaterialAmbientColor: 0
+ MaterialDiffuseColor: 9403497
+ MaterialEmissiveColor: 0
+ MaterialShininess: 0.075
+ MaterialSpecularColor: 0
+ MaterialTransparency: 0
+ Mirror: [false,false,false]
+ MUAnimationAreaAbsoluteCenter: [0.14,0,1.18]
+ MUAnimationAreaAbsoluteSize: [0.25,0.75]
+ MUAnimationAreaEnabled: true
+ MUAnimationAreaMURotation: [0,0,0,-1]
+ MUAnimationAreaOrientation: "XY plane"
+ MUAnimations:
+ -
+  Name: "Default"
+  AnchorPoints:
+  - [0.14,0,1.18,0,0,0,1,~]
+ MUSideToAttach: "Back"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ ShowContent: true
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-0.6,0.3,0]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [0,0,0]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Operational"
@@ -83,12 +113,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAhISEzpKCzpKCzpKCyFA8zpKCyFA8hISEgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAhISEzpKCzpKCzpKCyFA8hISEgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAvr6+hISEhISEvr6+gIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [15,11]
- -
-  Coords: [11,11]
 -
  Name: "Failed"
  Transparent: true
@@ -118,12 +142,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAhISEAA//AA//AA//AACwAA//AACwhISEgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAhISEAA//AA//AA//AACwhISEgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAvr6+hISEhISEvr6+gIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [15,11]
- -
-  Coords: [11,11]
 -
  Name: "Pause"
  Transparent: true
@@ -153,12 +171,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAhISE/wAA/wAA/wAAoAQA/wAAoAQAhISEgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAhISE/wAA/wAA/wAAoAQAhISEgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAvr6+hISEhISEvr6+gIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [15,11]
- -
-  Coords: [11,11]
 -
  Name: "working"
  Transparent: true
@@ -188,9 +200,3 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAhISEAPAAAPAAAPAAAIAAAPAAAIAAhISEgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAhISEAPAAAPAAAPAAAIAAhISEgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAvr6+hISEhISEvr6+gIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [15,11]
- -
-  Coords: [11,11]

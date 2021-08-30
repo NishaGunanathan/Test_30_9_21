@@ -80,10 +80,4 @@ Program: |+1
  s := to_str("<<",OffSpring.getHTMLcode(150,100,true),">>")
  SVGofCharts[1,nGen] := s
 RandomSeed: 398
-SelectCtrl:
 UUID: e7de2da4-a7ee-473c-af12-4f4248c4ac07
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

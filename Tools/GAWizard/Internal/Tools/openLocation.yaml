@@ -7,10 +7,4 @@ Program: |+1
  ?.~.openDialog
 
 RandomSeed: 496
-SelectCtrl:
 UUID: 62a9a437-cd3e-4990-947a-edd020e9d97e
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

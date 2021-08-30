@@ -1,8 +1,6 @@
 InternalClassType: Dialog
 Origin: 71ea1017-baf7-4388-b832-9be2261f465d
 UUID: faa6f816-b1a2-4e29-a48b-2d039d47f03c
-$IconAttributes:
- CurrIconNo: 1
 $CustomAttributes:
 -
  Name: callback

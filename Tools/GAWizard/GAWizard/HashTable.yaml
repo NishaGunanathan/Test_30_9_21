@@ -4,10 +4,6 @@ Label: ""
 Name: HashTable
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 63eec6f4-71f0-47bb-af05-afcb72c4644e
-$IconAttributes:
- Matrix: [1,9.3289942437735363e-10,-9.3289942437735363e-10,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: |+1
   Columns No is equal to strHash(uniqueIndivStr) mod m.\r

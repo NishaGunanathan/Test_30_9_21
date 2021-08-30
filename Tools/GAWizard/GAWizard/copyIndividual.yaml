@@ -25,8 +25,3 @@ Program: |+1
  Dialog.Gawizard.setCaption("currIndivR_com",to_str(indNo))
 RandomSeed: 395
 UUID: 23c5515b-7a2a-431e-bb18-6950e1ddc889
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

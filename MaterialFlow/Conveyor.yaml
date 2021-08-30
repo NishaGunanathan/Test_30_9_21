@@ -2,10 +2,8 @@ InternalClassType: Conveyor
 Acceleration: 1
 AccelerationEnabled: false
 Accumulating: true
-AnimateOnEveryXthPixel: 2
 AutomaticStop: false
 Backwards: false
-BaseHeight: 1
 BwEntranceCtrl:
 BwEntranceCtrlFront: false
 BwEntranceCtrlRear: true
@@ -14,13 +12,11 @@ BwExitCtrlFront: false
 BwExitCtrlRear: true
 Capacity: -1
 ChangePathCtrl:
-Color: 12632256
 ConnectCtrl:
 ConstructorCtrl:
 Coordinate3D: [0,0,0]
 CostingActive: false
 CreateIn3D: true
-CurveActive: true
 CycleTime: 0
 Deceleration: 1
 DestructorCtrl:
@@ -42,18 +38,13 @@ FailureActive: true
 InitCtrl:
 Label: ""
 Length: 2
-MidLine: 1
 MoveInFrameCtrl:
 MoveToFolderCtrl:
 MUDistance: -1
 MUDistanceType: "Gap"
 Name: Conveyor
-ObjectAngle: 0
-ObjectMirrored: false
 OpenCtrl:
 PauseCtrl:
-PenColor: 0
-PenWidth: 2
 PlausibilityCtrl:
 PullCtrl:
 RandomSeed: 1
@@ -62,25 +53,88 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Transport"
 ResStatOn: true
-RotateAroundRefPoint: true
-RotateMovables: true
-RotateMUs: true
-SelectCtrl:
 ShiftcalendarObject:
 Speed: 1
 SpeedCtrl:
-StatusWithIcons: false
 TransferLengthToObject: true
-Transparent: false
 UnplannedCtrl:
 UUID: 98eb3125-e343-47fb-8aa9-3f0537c2549f
 Width: 1
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AniGravityMode: false
+ AnimationObject: ""
+ AnimationOffset: [0,0,0]
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ BaseHeight: 1
+ ExcludeFromShowContentOfLocation: false
+ ExtConfiguration:
+ -
+  Name: "Legs_1"
+  Extrusion Profile: [[-0.5,-0.05],[-0.4,-0.05],[-0.4,0.05],[-0.5,0.05],[-0.5,-0.05]]
+  Configuration Type: 20
+  Offsets: [-0.09,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xcc6633,0xcc6633,0x595959,0x0,0,68]
+ -
+  Name: "Legs_2"
+  Extrusion Profile: [[0.4,-0.05],[0.5,-0.05],[0.5,0.05],[0.4,0.05],[0.4,-0.05]]
+  Configuration Type: 20
+  Offsets: [-0.09,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xcc6633,0xcc6633,0x595959,0x0,0,68]
+ -
+  Name: "Lanes"
+  Extrusion Profile: [[-0.475,-0.1],[0.475,-0.1],[0.475,0],[-0.475,0],[-0.475,-0.1]]
+  Configuration Type: 2
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0x2d2d2d,0x292929,0x0,0x0,0,8]
+ -
+  Name: "Frame_2"
+  Extrusion Profile: [[0.475,-0.095],[0.5,-0.095],[0.5,-0.0050000000000000044],[0.475,-0.0050000000000000044],[0.475,-0.095]]
+  Configuration Type: 0
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xcc6633,0xcc6633,0x595959,0x0,0,68]
+ -
+  Name: "Frame_1"
+  Extrusion Profile: [[-0.5,-0.095],[-0.475,-0.095],[-0.475,-0.0050000000000000044],[-0.5,-0.0050000000000000044],[-0.5,-0.095]]
+  Configuration Type: 0
+  Offsets: [0,0]
+  Repetition Interval: 0
+  Graphic Group ID: 0
+  Material: [0xcc6633,0xcc6633,0x595959,0x0,0,68]
+ GraphicGroupNames: ["default"]
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimations:
+ MUSideToAttach: "Bottom"
+ NameLabelEnabled: false
+ NameLabelPosition: [0,-0.5,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Visible graphics"
+ Poses:
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ ShowSensors: true
+ StatesOrientation: "(Off)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,2]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [-0.96,0.96,2]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: false
 $IconArray:
 -
  Name: "Default"
@@ -127,10 +181,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [4,20,35,20]
 $CurveSegments:
 - 0
 - [0,2,0]

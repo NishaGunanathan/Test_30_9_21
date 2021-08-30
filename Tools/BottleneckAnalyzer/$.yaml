@@ -8,6 +8,8 @@ PermitDeleteCtrl:
 RenameCtrl:
 RootFolder: true
 UUID: a9681d71-0cd6-4b29-9986-69be344cb20e
+3D:
+ BackgroundColor: -1
 Password:
 LibInfo:
  Name: "Bottleneck Analyzer"

@@ -22,8 +22,6 @@ Program: |+1
  sortStats(3)
 RandomSeed: 59
 UUID: 4d130a30-86ea-4b89-a3f4-8f24c28c8f62
-$IconAttributes:
- CurrIconNo: 0
 $CustomAttributes:
 -
  Name: ReportObject

@@ -17,8 +17,3 @@ Program: |+1
  GAWizard.setSensitive("Param_but", isSet)
 RandomSeed: 438
 UUID: d97afbbf-f7af-41df-993d-c4a7de67a4a5
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

@@ -8,6 +8,8 @@ PermitDeleteCtrl:
 RenameCtrl:
 RootFolder: true
 UUID: f89ef4f4-9991-4839-a7b6-f41e68c04b39
+3D:
+ BackgroundColor: -1
 Password:
 LibInfo:
  Name: "GA Wizard"

@@ -7,6 +7,8 @@ Name: InformationFlow
 PermitDeleteCtrl:
 RenameCtrl:
 UUID: 453910bb-4076-4a75-8f90-c4de7dd73893
+3D:
+ BackgroundColor: -1
 $Nodes:
 - 14e8d614-9464-4481-a9fa-24b2012459d7
 - 336008a0-132b-40f5-83c4-1622e8643156

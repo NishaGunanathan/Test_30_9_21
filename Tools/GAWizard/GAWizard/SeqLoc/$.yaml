@@ -3,15 +3,7 @@ Coordinate3D: [22,0,0]
 CreateIn3D: false
 Name: SeqLoc
 Origin: 3c7443dd-78d4-4785-9e7e-a1525e29b1ed
-ShowDisplayPanels: true
-ShowObjectLabels: false
-ShowObjectNames: true
 UUID: c13d416a-866b-421a-9592-d4b3c26e9ecd
-ZoomFactor: 1
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: Assignments
@@ -55,6 +47,3 @@ $UserPopupMenu:
  Active: true
  $Entries:
  - ["Open Assignment","openAssignTable"]
-$ShowConnections: true
-$ShowComment: true
-$ShowGrid: true

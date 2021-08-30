@@ -13,12 +13,7 @@ Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-SelectCtrl:
 UUID: d8df7e3a-3976-44e8-bf2f-e4f18e443eae
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $Data:
  Comment: "This table is needed for the determination of the mean values of output values, which are used in conditions of rules."
  ShowComment: true

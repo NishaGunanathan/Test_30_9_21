@@ -11,10 +11,4 @@ Program: |+1
  tabObj.openDialog
 
 RandomSeed: 493
-SelectCtrl:
 UUID: 9f7ef827-8539-4d20-b7e5-6c1a224e1f3b
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

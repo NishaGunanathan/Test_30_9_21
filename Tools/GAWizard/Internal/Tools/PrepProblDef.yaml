@@ -286,10 +286,4 @@ Program: |+1
  end
  print AppObj.MsgDuplicatesIndividuals -- used in the Report: The search for equal individuals ...
 RandomSeed: 497
-SelectCtrl:
 UUID: 4f9f4e27-ce94-4cb0-a784-d82f53b8cb67
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

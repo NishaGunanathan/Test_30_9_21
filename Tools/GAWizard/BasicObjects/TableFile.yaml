@@ -15,15 +15,7 @@ OpenCtrl:
 PlausibilityCtrl:
 RelabelCtrl:
 RenameCtrl:
-RotateAroundRefPoint: true
-SelectCtrl:
-StatusWithIcons: true
 UUID: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $IconArray:
 -
  Name: "Default"
@@ -70,7 +62,6 @@ $IconArray:
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
  - vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+
- NumAniEvents: 1
 -
  Name: "Icon1"
  RefPoint: [0,0]
@@ -116,7 +107,6 @@ $IconArray:
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
  - ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
- NumAniEvents: 1
 $Data:
  Comment: ""
  ListFormat:

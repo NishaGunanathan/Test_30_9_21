@@ -3,10 +3,6 @@ Coordinate3D: [42.150000000000006,-39.55,0]
 Name: ReportRules
 Origin: ac15cd9a-f3e9-4e17-b1f0-b3c3f885964b
 UUID: ef260b22-706c-4bdd-b2ce-909151ba8f61
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: isOpen

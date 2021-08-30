@@ -93,8 +93,3 @@ Program: |+1
  result := true
 RandomSeed: 434
 UUID: c5078697-6c9a-4d32-9d18-071c89e5df9a
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

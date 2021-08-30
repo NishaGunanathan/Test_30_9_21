@@ -5,10 +5,6 @@ Label: ""
 Name: ProblemDefinition
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: 49a3d5cc-6b4b-4abf-9641-ab27af209d44
-$IconAttributes:
- Matrix: [1,9.3289942437735363e-10,-9.3289942437735363e-10,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: isOpen

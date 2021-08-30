@@ -129,7 +129,3 @@ Program: |+1
  end -- if with 3D
 RandomSeed: 44
 UUID: e20d1ce6-1fa8-41a7-85b0-c3cce0480c7c
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

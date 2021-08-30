@@ -35,8 +35,3 @@ Program: |+1
  obj.copyRangeTo({1,1}..{*,*}, tab, 1,1)
 RandomSeed: 217
 UUID: 296d4d25-5980-4388-bc20-d869b3b0e639
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

@@ -284,11 +284,6 @@ Program: |+1
  end
 RandomSeed: 400
 UUID: 10820593-1e34-4777-bc40-b9f6fd910e3a
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: ProtectCharacters

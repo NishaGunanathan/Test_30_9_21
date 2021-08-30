@@ -104,7 +104,3 @@ Program: |+1
  ~.Design4FactorialAnalysis := false
 RandomSeed: 297
 UUID: 43154886-a22a-4246-9b4d-73215afd9c73
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

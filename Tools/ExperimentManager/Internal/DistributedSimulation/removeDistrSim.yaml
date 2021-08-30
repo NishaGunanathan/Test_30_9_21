@@ -23,5 +23,3 @@ Program: |+1
  MachinesTable.delete({7,1}..{18,*})	-- delete, starting with handle column
 RandomSeed: 343
 UUID: 2d6049f1-3e46-4818-94b8-a439abf7754d
-$IconAttributes:
- CurrIconNo: 0

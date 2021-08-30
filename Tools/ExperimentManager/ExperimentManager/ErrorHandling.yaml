@@ -27,8 +27,3 @@ Program: |+1
  error := "" -- catch the error
 RandomSeed: 167
 UUID: e5a507e1-8df2-408a-801a-fddd7c3dfd42
-$IconAttributes:
- CurrIconNo: 0
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

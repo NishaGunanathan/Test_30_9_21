@@ -41,8 +41,3 @@ Program: |+1
  result := (GaOptimization.taskTable.yDim>0)
 RandomSeed: 429
 UUID: e7458f00-25e5-4c0c-9734-232c39e5cdc2
-$IconAttributes:
- CurrIconNo: 10
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true

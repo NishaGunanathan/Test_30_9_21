@@ -35,11 +35,7 @@ RelabelCtrl:
 RenameCtrl:
 ResourceType: "Storage"
 ResStatOn: true
-RotateAroundRefPoint: true
-RotateMUs: true
-SelectCtrl:
 ShiftcalendarObject:
-StatusWithIcons: false
 Supermarket: false
 UnplannedCtrl:
 UUID: 367a87ca-52b3-4599-8573-fea3ceaff35a
@@ -47,11 +43,62 @@ XDim: 3
 YDim: 3
 ZDim: 1
 $BasicObject: true
-$IconAttributes:
- CurrIconNo: 1
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
+3D:
+ AnimationObject: ""
+ AniRotationAxis: [0,0,-1]
+ AniRotationCenter: [0,0,0]
+ AutoGraphicsActive: true
+ Dimensions: [0.5,0.4,0.01]
+ ExcludeFromShowContentOfLocation: false
+ FloorThickness:
+ Gap: 0.05
+ GraphicGroupNames: ["default"]
+ GroundClearance:
+ LockedGraphicGroups: []
+ Mirror: [false,false,false]
+ MUAnimationAreaEnabled: true
+ MUAnimationAreaMURotation: [0,0,0,-1]
+ MUAnimationAreaOrientation: "XY plane"
+ MUAnimationAreaRelativeCenter: [0,0,1]
+ MUAnimationAreaRelativeSize: [1,1]
+ MUAnimations:
+ MUSideToAttach: "Center bottom"
+ NameLabelEnabled: false
+ NameLabelPosition: [-1,-1,0]
+ NameLabelRotation: [0,0,0,-1]
+ NameLabelScale: [1,1,1]
+ ObstacleForWorker: "Bounding box"
+ OriginX: "Center"
+ OriginY: "Center"
+ Poses:
+ PostMaterialActive: true
+ PostMaterialAmbientColor: 13395507
+ PostMaterialDiffuseColor: 13395507
+ PostMaterialEmissiveColor: 0
+ PostMaterialShininess: 0.267
+ PostMaterialSpecularColor: 5855577
+ PostMaterialTransparency: 0
+ Rotation: [0,0,0,-1]
+ Scale: [1,1,1]
+ SelfAnimations:
+ ShowContent: true
+ StatesOrientation: "(Off)"
+ StorageAreaMaterialActive: true
+ StorageAreaMaterialAmbientColor: 9670004
+ StorageAreaMaterialDiffuseColor: 8946281
+ StorageAreaMaterialEmissiveColor: 0
+ StorageAreaMaterialShininess: 0.247
+ StorageAreaMaterialSpecularColor: 5855577
+ StorageAreaMaterialTransparency: 0
+ StoreType: "Floorspace (dynamic)"
+ VisibleGraphicGroups: ["default"]
+ $StatesTransformations:
+  HorizontalStatesPosition: [-1,1,0]
+  HorizontalStatesScale: [1,1,1]
+  HorizontalStatesScaleWithObject: true
+  VerticalStatesPosition: [0,0,0]
+  VerticalStatesScale: [1,1,1]
+  VerticalStatesScaleWithObject: true
 $IconArray:
 -
  Name: "Default"
@@ -98,26 +145,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [11,11]
- -
-  Coords: [20,11]
- -
-  Coords: [29,11]
- -
-  Coords: [11,20]
- -
-  Coords: [20,20]
- -
-  Coords: [29,20]
- -
-  Coords: [11,29]
- -
-  Coords: [20,29]
- -
-  Coords: [29,29]
 -
  Name: "Operational"
  Transparent: true
@@ -164,26 +191,6 @@ $IconArray:
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
  - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
- NumAniEvents: 1
- AniObjects:
- -
-  Coords: [11,11]
- -
-  Coords: [20,11]
- -
-  Coords: [29,11]
- -
-  Coords: [11,20]
- -
-  Coords: [20,20]
- -
-  Coords: [29,20]
- -
-  Coords: [11,29]
- -
-  Coords: [20,29]
- -
-  Coords: [29,29]
 $TransportImp:
  Active: false
  Services:

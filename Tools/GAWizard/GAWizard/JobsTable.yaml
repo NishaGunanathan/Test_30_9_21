@@ -4,10 +4,6 @@ Label: ""
 Name: JobsTable
 Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
 UUID: ef65e4d2-b4c1-41f2-a333-c45711ab67f5
-$IconAttributes:
- Matrix: [1,0,0,1]
- ChangedRotation: true
- ChangedScaling: true
 $CustomAttributes:
 -
  Name: RangeStart
