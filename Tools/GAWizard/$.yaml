@@ -1,0 +1,39 @@
+InternalClassType: Folder
+ChangePathCtrl:
+Coordinate3D: [2,-3,0]
+DestructorCtrl:
+MoveToFolderCtrl:
+Name: GAWizard
+PermitDeleteCtrl:
+RenameCtrl:
+RootFolder: true
+UUID: f89ef4f4-9991-4839-a7b6-f41e68c04b39
+Password:
+LibInfo:
+ Name: "GA Wizard"
+ Version: "16.0.1"
+ Description: |+1
+  Optimizes the simulation model\r
+  using Genetic Algorithms.\r
+  $German$GA Assistent\r
+  Optimiert das Simulationsmodell\r
+  mit Genetischen Algorithmen.\r
+  $Japanese$\r
+  遺伝アルゴリズムを使用して、\r
+  シミュレーションモデルを最適化します。\r
+  $Chinese$\r
+  使用遗传算法来优化仿真模型。\r
+  $Russian$\r
+  Оптимизация модели симуляции\r
+  с помощью общих алгоритмов.\r
+  $Hungarian$\r
+  Szimulációs modell optimalizálása\r
+  Genetikus algoritmussal.
+ AlternativePaths: "$German$.Tools.GAAssistent"
+ Requires3D: false
+ ProhibitAccess: false
+$Nodes:
+- 84bedd9a-0655-4c0b-99b3-93abc827dc59
+- 692db35a-0f8a-432f-980f-0aec58626279
+- 83b19629-9321-4dc4-b6d2-a6055d3dfd57
+- 9d8c824d-56aa-4823-8792-7b6fc70708b3

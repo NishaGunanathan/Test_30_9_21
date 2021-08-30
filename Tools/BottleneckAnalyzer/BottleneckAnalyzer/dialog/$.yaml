@@ -1,0 +1,26 @@
+InternalClassType: Frame
+Coordinate3D: [23.200000000000003,-1.1499999999999986,0]
+Name: dialog
+Origin: d7eacce9-a71a-4805-834d-dd6913d31bb7
+ShowDisplayPanels: true
+ShowObjectLabels: false
+ShowObjectNames: true
+UUID: c274e341-0f8e-4396-9fb3-2df3657f499c
+ZoomFactor: 1
+$IconAttributes:
+ CurrIconNo: 0
+$ShowConnections: true
+$ShowComment: true
+$ShowGrid: true
+$Nodes:
+- c5899e16-4bdf-4816-8927-7f88f4619ce9
+- 4f5d945e-e8e5-4caf-84c8-884fe648033e
+- d69af764-78a0-45a2-8480-276d89dd5634
+- 589274d0-0587-42ef-af4c-eba7c8a1a446
+- 09959c16-f6a1-42e7-8dae-ac206b7d92c3
+- 985b3c60-5f71-466f-adb7-e1125ee91383
+- 1fef3fb0-2a63-482e-8857-ca5f6947d045
+- f820ca0a-13de-402f-94d2-3b599755db18
+- 27510824-cfe7-4fb8-8efe-10d20e52abdf
+- dd2d9213-6059-4a10-ab3f-0e3c495d7a31
+- 1ac182d3-2f88-4c9c-9674-67715447e854

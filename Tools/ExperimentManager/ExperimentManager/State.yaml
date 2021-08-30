@@ -1,0 +1,14 @@
+InternalClassType: Variable
+Comment: |+1
+ Values durng an experiment study which is not interrupted by the user\r
+ "ready", "running" \r
+ \r
+ Button 'Stop': "stopped", "SimStopped", "wait4stop"
+Coordinate3D: [4,-0.19999999999999929,0]
+DataType: string
+Font: 2
+Name: State
+Origin: 6ef47776-b835-4441-9749-08a26df4772e
+ShowDataType: false
+UUID: 366675d1-3eb8-4099-b13b-effebc02758d
+Value: "ready"

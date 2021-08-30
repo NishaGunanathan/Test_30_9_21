@@ -1,0 +1,15 @@
+InternalClassType: Method
+Coordinate3D: [6,-22.35,0]
+Name: GenerationEvaluated
+Origin: b83ec430-4a54-431c-aa59-e271a4e5f720
+Program: |+1
+ -- user defined control before the creation of the next generation
+ 
+ var allKids:table := Individuals
+RandomSeed: 401
+UUID: 684ae1e9-7455-4db3-8581-2eb3d4311114
+$IconAttributes:
+ CurrIconNo: 3
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

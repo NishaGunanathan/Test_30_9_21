@@ -1,0 +1,24 @@
+InternalClassType: Comment
+BackgroundColor: 14483420
+ChangePathCtrl:
+Color: 0
+ConstructorCtrl:
+Cont: ""
+Coordinate3D: [0,0,0]
+CreateIn3D: true
+DestructorCtrl:
+DragDropCtrl:
+Font: 1
+InitCtrl:
+MoveInFrameCtrl:
+MoveToFolderCtrl:
+Name: Comment
+OpenCtrl:
+PlausibilityCtrl:
+RenameCtrl:
+SaveAsRichedit: false
+SelectCtrl:
+Text: "Text"
+Transparent: false
+UUID: 235f6e33-9ef6-4d8e-8844-91899db1379b
+$BasicObject: true

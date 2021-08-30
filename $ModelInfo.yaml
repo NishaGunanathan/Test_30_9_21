@@ -1,0 +1,46 @@
+ApplicationVersion: "16.1.1.2241"
+ModelFormat: 1
+CompactFormat: false
+UUID: 8fc7ed36-1018-42a0-aa0c-b022fcfd4f0b
+ModelSettings:
+ Language: "English"
+ DateFormat: 1
+ ConnectorDrawing: true
+ AutoConnect: true
+ GridXY: [20,20]
+ InterpStack: 5000
+ InterpChain: 10000
+ InterpSuspended: 5000
+ Epsilon: 1e-08
+ FPS: 30
+ DisplayPanelFPSDivider: 3
+ MaxSamples: 100
+ LoopTimeout: 7000
+ UnitLU: 1
+ TimeScale: [1,24,60,60]
+ DayLight: [3,-1,0,2,10,-1,0,3]
+ BaseYear: 2021
+ Units: [1,1,1,0,0]
+ MoneyUnit: $
+ ScreenCoverageThreshold: 1
+ ShowStateColors: false
+ GridConfiguration:
+  AxisColor: 0xf0
+  BasePlateMaterial: [0xbfbebebe,0x0,0x0,0x0]
+  LineSets:
+  - [0.1,0xaaaaaa,true]
+  - [1,0x6e6e6e,true]
+  - [10,0x0,true]
+  GridSnapLineSet: 2
+  SnapMode: 3
+Animation: true
+$Nodes:
+- d5f2e2b5-e059-49b3-8403-59c413f0f2fb
+- 21ebac6d-189b-4d95-9af7-318091c182f3
+- 9d42c45d-a6de-4929-b9a3-2d8bcd446fbf
+- 453910bb-4076-4a75-8f90-c4de7dd73893
+- 116a4224-7553-4196-b24a-d7100918168a
+- 07de0beb-80ac-4915-af66-891417ffb389
+- 405de7ba-8f5f-41cf-88e0-60b8c959f5c6
+- b285e934-3a7a-4fe5-85f8-009aa8cc3814
+- 1e3de5ec-0f68-4435-8a84-0669f40dd476

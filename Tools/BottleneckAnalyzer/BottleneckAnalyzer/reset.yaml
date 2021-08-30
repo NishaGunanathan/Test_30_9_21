@@ -1,0 +1,11 @@
+InternalClassType: Method
+Coordinate3D: [1.6999999999999993,-5.5,0]
+Name: reset
+Origin: 5023c3b0-b155-4c2e-ac4a-a0d084d9cbf2
+Program: |+1
+ removeStats
+
+RandomSeed: 63
+UUID: ddfccc8d-995d-495c-80a5-ea6ef517bd97
+$IconAttributes:
+ CurrIconNo: 7

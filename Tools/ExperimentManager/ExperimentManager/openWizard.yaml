@@ -1,0 +1,10 @@
+InternalClassType: Method
+Coordinate3D: [4,-39.55,0]
+Name: openWizard
+Origin: 5ae5800c-dfab-47ad-aedc-4711f1a601a2
+Program: |+1
+ -- show the dialog of the Experimentmanager
+ -- called by; context menu
+ Dialog.Dialog.open
+RandomSeed: 179
+UUID: fd4d9431-8519-4fc1-b3d6-31d13120e5ae

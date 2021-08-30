@@ -1,0 +1,48 @@
+InternalClassType: Method
+Coordinate3D: [9.1,-1.85,0]
+Name: prepareRemoteProcess
+Origin: 5ae5800c-dfab-47ad-aedc-4711f1a601a2
+Program: |+1
+ -- called by CreateProcess after creation of the remote process
+ -- It is running on the simulation machine (as a remote process)
+ var WizObj:object := ~
+ closeAllWindows
+ 
+ if WizObj.RemoteLowerPrio
+ 	SetProcessPriorityToBelowNormal(true)
+ end
+ 
+ resetInitBox(false)
+ if NOT ~.simulateWithAnimation
+ 	animation(false)
+ end
+ closeConsole(true)
+ 
+ var pathStr:string := to_str(WizObj,".state")
+ if existsObject(pathStr)
+ 	str_to_obj(pathStr).value := "ready"
+ end
+ 
+ if eventController /= void
+ 	eventController.SummaryReport := false
+ 	eventController.RealTime := false
+ 	-- set the attribute ExperimentManager of the EventController in the remote simulation models
+ 	eventController.ExperimentManager := WizObj
+ end;
+ 
+ /*var stopOnErrors, stopOnFormularErrors: boolean;
+ getErrorStop(stopOnErrors, stopOnFormularErrors)
+ if stopOnErrors*/
+ 
+ var RemoteErrorHandler:object := &ErrorHandling
+ ~.ModelErrorHandling := setErrorHandler(&ErrorHandling)
+ -- The function setErrorHandler returns the last registered error handling method.
+ -- treatment of errors in SimTalk by the global error handling of the remote process.
+ -- Now the value of ~.ModelErrorHandling is the original error handler of the model.
+RandomSeed: 340
+UUID: 28a03a7c-1949-4d52-811e-5d556008edd2
+$IconAttributes:
+ CurrIconNo: 0
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

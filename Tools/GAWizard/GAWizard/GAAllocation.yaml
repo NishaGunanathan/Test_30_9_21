@@ -1,0 +1,13 @@
+InternalClassType: GASetAllocation
+Coordinate3D: [1.3499999999999996,-4,0]
+MutationProb: 0.5
+Name: GAAllocation
+Origin: e785776a-4da2-4fbd-986a-a75e691f7708
+UUID: fd4f04d0-ec27-40ef-b271-4987ffed76bb
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$Data:
+ ColumnIndex: [string,3,"Define Set","Allocation Sets","Initial Sets -->"]
+ Columns:

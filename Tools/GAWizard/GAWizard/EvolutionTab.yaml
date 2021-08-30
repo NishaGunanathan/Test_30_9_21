@@ -1,0 +1,35 @@
+InternalClassType: DataTable
+Coordinate3D: [22,-22.35,0]
+Name: EvolutionTab
+Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
+UUID: 85c22295-1adb-40fe-959f-8a5d26e8c3f8
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$Data:
+ Comment: ~
+ ListFormat:
+  ColumnIndex: true
+  ColumnWidth: 9
+  DataType: string
+  MaxXDim: 3
+  RowIndex: true
+  ShowDataType: true
+  ColumnFormat:
+  -
+   Index: 0
+   DataType: integer
+   FormatString: "-9"
+   Width: 10
+  -
+   Index: 1
+   DataType: real
+  -
+   Index: 2
+   DataType: real
+  -
+   Index: 3
+   DataType: real
+ ColumnIndex: [string,4,"Generation","best solution","average","worst solution"]
+ Columns:

@@ -1,0 +1,14 @@
+InternalClassType: Method
+Coordinate3D: [10,10,0]
+Name: openHelp
+Origin: 5023c3b0-b155-4c2e-ac4a-a0d084d9cbf2
+Program: |+1
+ -- called by context menu and dialog
+ dialog.callback("HelpObject_Menu")
+
+RandomSeed: 70
+UUID: 985b3c60-5f71-466f-adb7-e1125ee91383
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

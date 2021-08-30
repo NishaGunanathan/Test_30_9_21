@@ -1,0 +1,25 @@
+InternalClassType: Method
+Coordinate3D: [22,-7,0]
+Name: DestrContr
+Origin: b83ec430-4a54-431c-aa59-e271a4e5f720
+Program: |+1
+ -- destructor
+ var col:integer
+ var seqTab:object
+ 
+ var t:table := ~.seqLoc.assignments
+ for var j := 1 to t.yDim 
+ 	seqTab := t[1,j]
+ 	col := t[3,j]
+ 	if seqTab /= void AND col > 0 
+ 		seqTab.cutColumn(col) -- the _GAwizard added these columns
+ 		seqTab.cutColumn(col)
+ 	end
+ next
+RandomSeed: 445
+UUID: 5c7a5161-3b76-4081-be1e-144b4f4f5af9
+$IconAttributes:
+ CurrIconNo: 10
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

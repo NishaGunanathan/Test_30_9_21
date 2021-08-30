@@ -1,0 +1,33 @@
+InternalClassType: Frame
+Coordinate3D: [32.3,-9,0]
+Name: DistributedSimulation
+Origin: 442b7015-51cb-4321-82a0-7f53497d6598
+ShowDisplayPanels: true
+ShowObjectLabels: false
+ShowObjectNames: true
+UUID: 66ce4660-39d0-4fc7-8f15-ca9335548278
+ZoomFactor: 1
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$CustomAttributes:
+-
+ Name: mainDialog
+ $DataType: object
+ Value: "~.Dialog.GAWizard"
+$ShowComment: true
+$ShowGrid: true
+$Nodes:
+- f81c12b2-06c8-40fe-b434-43efbdd8043d
+- d92deff9-5779-4bac-89f2-7ff8e1b10f5a
+- c7345a85-c11a-4be5-9a13-8f47daccc787
+- b4295726-1e42-41a5-8f8d-2da2c53d20a1
+- 2af3a540-1135-4464-a174-bce76d4c7b45
+- fc98a132-5d53-4ed5-afe2-f15287ff519c
+- cb95ba82-e776-41c1-ad33-aa993666e0e9
+- a9c31122-b8e8-4dd6-9816-96154d47eb50
+- d6fb5ec8-c865-4b12-a790-973908de1f7f
+- 40fad64d-836a-4b17-8338-f35b3f83e57f
+- 32e213c5-79ae-4f6c-a662-740826a4773d
+- 2d26e35e-253c-4a56-9a48-aa7bdb87b282

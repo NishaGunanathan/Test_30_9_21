@@ -1,0 +1,153 @@
+InternalClassType: WorkerPool
+BrokerPath: "Broker"
+ChangePathCtrl:
+ConnectCtrl:
+ConstructorCtrl:
+Coordinate3D: [0,0,0]
+CreateIn3D: true
+DestructorCtrl:
+DragDropCtrl:
+EntranceCtrl:
+ExitCtrl:
+GetJobOrdersInPoolOnly: false
+InitCtrl:
+Label: ""
+MoveInFrameCtrl:
+MoveToFolderCtrl:
+Name: WorkerPool
+OpenCtrl:
+PartsBuffer:
+PauseCtrl:
+PlausibilityCtrl:
+RandomSeed: 1
+RelabelCtrl:
+RenameCtrl:
+ResourceType: "Production"
+ResStatOn: true
+RotateAroundRefPoint: true
+RotateMUs: true
+SelectCtrl:
+ShiftcalendarObject:
+StatusWithIcons: false
+UnplannedCtrl:
+UUID: ee721f06-199a-4149-a1f9-312b48443980
+WorkersCanWorkRemotely: false
+WorkersTravelMode: "Walk along footpaths"
+$BasicObject: true
+$IconAttributes:
+ CurrIconNo: 1
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$IconArray:
+-
+ Name: "Default"
+ Transparent: true
+ Size: [38,38]
+ Pixels:
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAjIyMUhkpUhkpUhkpUhkpUhkpUhkpUhkpUhkpjIyMgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAjIyMUhkpUhkpUhkpUhkpUhkpUhkpUhkpUhkpjIyMgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAjIyMUhkpUhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAgIAAjIyM7OzsgIAAgIAAjIyMUhkpUhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAgIAAgIAA
+ - gIAAgIAAjIyMUhkpUhkp/wAA/wAA////EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAjIyM7OzsgIAAjIyMUhkpUhkp/wAA/wAA////EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAgIAA
+ - gIAAgIAAUhkpUhkp/wAA/wAA////EI//EI//EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAjIyM7OzsgIAAUhkpUhkp/wAA/wAA////EI//EI//EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAA
+ - gIAAgIAAUhkp/wAA/wAAUhkp////////EI//EI//EI//CAt7/////wAA/wAAUhkpUhkpgIAAjIyM7OzsgIAAUhkp/wAA/wAAUhkp////////EI//EI//EI//CAt7/////wAA/wAAUhkpUhkpgIAAgIAA
+ - gIAAgIAA/wAA/wAAUhkpUlJSvb29c529////EI//UlJSgIAAgIAA/////wAA/wAAUhkpgIAAjIyM7OzsgIAA/wAA/wAAUhkpUlJSvb29c529////EI//UlJSgIAAgIAA/////wAA/wAAUhkpgIAAgIAA
+ - gIAAgIAA/////wAA/wAAUhkpUlJSvb29c529c529gIAAgIAA/////wAA/wAAUhkpUlJSgIAAjIyM7OzsgIAA/////wAA/wAAUhkpUlJSvb29c529c529gIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAA
+ - gIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAjIyM7OzsgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAA/////wAAc529UlJSgIAAc529/wAAUhkpUlJSgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAA/////wAAc529UlJSgIAAc529/wAAUhkpUlJSgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAc529c529UlJSgIAAc529c529UlJSgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAc529c529UlJSgIAAc529c529UlJSgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAA////////gIAAgIAA////////gIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAA////////gIAAgIAA////////gIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMvr6+jIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAA
+ - gIAA7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozsvr6+7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAjIyMUhkpUhkpUhkpUhkpUhkpUhkpUhkpUhkpjIyMgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAjIyMUhkpUhkpUhkpUhkpUhkpUhkpUhkpUhkpjIyMgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAjIyMUhkpUhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAgIAAjIyM7OzsgIAAgIAAjIyMUhkpUhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAgIAAgIAA
+ - gIAAgIAAjIyMUhkpUhkp/wAA/wAA////EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAjIyM7OzsgIAAjIyMUhkpUhkp/wAA/wAA////EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAAgIAA
+ - gIAAgIAAUhkpUhkp/wAA/wAA////EI//EI//EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAjIyM7OzsgIAAUhkpUhkp/wAA/wAA////EI//EI//EI//EI//CAt7/wAA/wAAUhkpUhkpjIyMgIAAgIAA
+ - gIAAgIAAUhkp/wAA/wAAUhkp////////EI//EI//EI//CAt7/////wAA/wAAUhkpUhkpgIAAjIyM7OzsgIAAUhkp/wAA/wAAUhkp////////EI//EI//EI//CAt7/////wAA/wAAUhkpUhkpgIAAgIAA
+ - gIAAgIAA/wAA/wAAUhkpUlJSvb29c529////EI//UlJSgIAAgIAA/////wAA/wAAUhkpgIAAjIyM7OzsgIAA/wAA/wAAUhkpUlJSvb29c529////EI//UlJSgIAAgIAA/////wAA/wAAUhkpgIAAgIAA
+ - gIAAgIAA/////wAA/wAAUhkpUlJSvb29c529c529gIAAgIAA/////wAA/wAAUhkpUlJSgIAAjIyM7OzsgIAA/////wAA/wAAUhkpUlJSvb29c529c529gIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAA
+ - gIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAjIyM7OzsgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAA/////wAA/wAAUhkpUlJSgIAA/////wAA/wAAUhkpUlJSgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAA/////wAAc529UlJSgIAAc529/wAAUhkpUlJSgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAA/////wAAc529UlJSgIAAc529/wAAUhkpUlJSgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAc529c529UlJSgIAAc529c529UlJSgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAc529c529UlJSgIAAc529c529UlJSgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAA////////gIAAgIAA////////gIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAA////////gIAAgIAA////////gIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAjIyM7OzsgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ NumAniEvents: 1
+ AniObjects:
+ -
+  Coords: [8,8]
+ -
+  Coords: [29,8]
+ -
+  Coords: [8,29]
+ -
+  Coords: [29,29]
+-
+ Name: "Operational"
+ Transparent: true
+ Size: [40,41]
+ Pixels:
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAA7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozsvr6+gIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+jIyMjIyMjIyMjIyMvr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+jIyMjIyMjIyMjIyMvr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+jIyMjIyMUhkpUhkpUhkpUhkpjIyMjIyMvr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+jIyMjIyMUhkpUhkpUhkpUhkpjIyMjIyMvr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+/7AA/wAA/wAACAt7CAt7/wAA/wAA/wAAvr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+Uhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpvr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+/7AA/wAA/wAAAL//EI//EI//CAt7/wAA/wAA/wAAvr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+Uhkp/wAA/wAAAL//EI//EI//CAt7/wAA/wAAUhkpvr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+/7AA/wAA/wAAAL//EI//EI//EI//EI//CAt7/wAA/wAA/wAAvr6+vr6+jIyM7Ozsvr6+vr6+Uhkp/wAA/wAAAL//EI//EI//EI//EI//CAt7/wAA/wAAUhkpvr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+/7AA/wAA/wAAUhkpAL//AL//EI//EI//EI//CAt7/7AA/wAA/wAAjIyMvr6+jIyM7Ozsvr6+Uhkp/wAA/wAAUhkpAL//AL//EI//EI//EI//CAt7/7AA/wAA/wAAjIyMvr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+/wAA/wAAUhkpvr6+vr6+AL//AL//EI//CAt7vr6+vr6+/wAA/wAAUhkpvr6+jIyM7Ozsvr6+/wAA/wAAUhkpvr6+vr6+AL//AL//EI//CAt7vr6+vr6+/wAA/wAAUhkpvr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+/wAA/wAA/wAAUhkpvr6+vr6+c529c529vr6+vr6+/7AA/wAA/wAAjIyMvr6+jIyM7Ozsvr6+/7AA/wAA/wAAUhkpvr6+vr6+c529c529vr6+vr6+/7AA/wAA/wAAjIyMvr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+/wAA/wAA/wAAUhkpvr6+vr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+jIyM7Ozsvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+/wAA/wAA/wAAUhkpvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+/wAA/wAAc529UlJSvr6+c529/wAAUhkpvr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+/7AA/wAAc529UlJSvr6+c529/wAAUhkpvr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+c529c529UlJSvr6+c529c529vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+c529c529UlJSvr6+c529c529vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7OzsjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMvr6+jIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMQEBAgIAAgIAA
+ - gIAAgIAA7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozsvr6+7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsQEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+jIyMjIyMjIyMjIyMvr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+jIyMjIyMjIyMjIyMvr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+jIyMjIyMUhkpUhkpUhkpUhkpjIyMjIyMvr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+jIyMjIyMUhkpUhkpUhkpUhkpjIyMjIyMvr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+Uhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpvr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+Uhkp/wAA/wAACAt7CAt7/wAA/wAAUhkpvr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+Uhkp/wAA/wAAAL//EI//EI//CAt7/wAA/wAAUhkpvr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+Uhkp/wAA/wAAAL//EI//EI//CAt7/wAA/wAAUhkpvr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+Uhkp/wAA/wAAAL//EI//EI//EI//EI//CAt7/wAA/wAAUhkpvr6+vr6+jIyM7Ozsvr6+vr6+Uhkp/wAA/wAAAL//EI//EI//EI//EI//CAt7/wAA/wAAUhkpvr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+Uhkp/wAA/wAAUhkpAL//AL//EI//EI//EI//CAt7/7AA/wAA/wAAjIyMvr6+jIyM7Ozsvr6+Uhkp/wAA/wAAUhkpAL//AL//EI//EI//EI//CAt7/7AA/wAA/wAAjIyMvr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+/wAA/wAAUhkpvr6+vr6+AL//AL//EI//CAt7vr6+vr6+/wAA/wAAUhkpvr6+jIyM7Ozsvr6+/wAA/wAAUhkpvr6+vr6+AL//AL//EI//CAt7vr6+vr6+/wAA/wAAUhkpvr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+/7AA/wAA/wAAUhkpvr6+vr6+c529c529vr6+vr6+/7AA/wAA/wAAjIyMvr6+jIyM7Ozsvr6+/7AA/wAA/wAAUhkpvr6+vr6+c529c529vr6+vr6+/7AA/wAA/wAAjIyMvr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+jIyM7Ozsvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+/7AA/wAA/wAAUhkpvr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+/7AA/wAAc529UlJSvr6+c529/wAAUhkpvr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+/7AA/wAAc529UlJSvr6+c529/wAAUhkpvr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+c529c529UlJSvr6+c529c529vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+c529c529UlJSvr6+c529c529vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAA7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+jIyM7Ozsvr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+vr6+QEBAgIAAgIAA
+ - gIAAgIAAvr6+QEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ NumAniEvents: 1
+ AniObjects:
+ -
+  Coords: [9,10]
+ -
+  Coords: [30,10]
+ -
+  Coords: [9,30]
+ -
+  Coords: [30,30]
+$CreationTable:
+- [8a5f3989-0fda-44ef-9ef2-155a0f62f21d,1,~,-1,-1,0]

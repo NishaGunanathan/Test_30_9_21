@@ -1,0 +1,147 @@
+InternalClassType: TwoLaneTrack
+AnimateOnEveryXthPixel: 2
+BaseHeight: 0.1
+Capacity: -1
+ChangePathCtrl:
+Color: 8421504
+ConnectCtrl:
+ConstructorCtrl:
+Coordinate3D: [0,0,0]
+CreateIn3D: true
+CurveActive: true
+CycleTime: 0
+DestListA:
+DestListB:
+DestructorCtrl:
+DragDropCtrl:
+FailCtrl:
+FailureActive: true
+InitCtrl:
+Label: ""
+MidLine: 3
+MoveInFrameCtrl:
+MoveToFolderCtrl:
+Name: TwoLaneTrack
+ObjectAngle: 0
+ObjectMirrored: false
+OpenCtrl:
+PauseCtrl:
+PenColor: 16777215
+PenWidth: 1
+PlausibilityCtrl:
+RandomSeed: 1
+RecoveryTime: 0
+RelabelCtrl:
+RenameCtrl:
+ResourceType: "Transport"
+ResStatOn: true
+RotateAroundRefPoint: true
+RotateMovables: true
+RotateMUs: true
+SelectCtrl:
+ShiftcalendarObject:
+StatusWithIcons: false
+TrackPitch: 1
+Traffic: "Right-hand Traffic"
+TransferLengthToObject: true
+Transparent: false
+UnplannedCtrl:
+UUID: 7311f7bd-58ae-4bb2-a4d4-0751c21ae95f
+Width: 2
+$BasicObject: true
+$IconAttributes:
+ CurrIconNo: 0
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$IconArray:
+-
+ Name: "Default"
+ Transparent: true
+ Size: [40,40]
+ Pixels:
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////gIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////gIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAf39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/gIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBgYGBg////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBglpaW////YGBglpaWlpaWlpaWlpaWlpaWlpaW////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////////////YGBglpaWlpaWlpaWlpaWlpaWlpaW////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBgYGBg////lpaWlpaWlpaWlpaWlpaWlpaWlpaW////////YGBgYGBgYGBgYGBgYGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBglpaW////YGBglpaWlpaWlpaWlpaWlpaWlpaWaWlp////YGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////////////YGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWYGBgYGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWlpaWYGBgYGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaW////////////////lpaWlpaW////////////////lpaWlpaW////////////////lpaWlpaW////////////////lpaWlpaW////////////////lpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWYGBgYGBgYGBgYGBglpaWlpaWYGBgYGBgYGBgYGBglpaWlpaWYGBgYGBgYGBgYGBglpaWlpaWYGBgYGBgYGBgYGBglpaWlpaWYGBgYGBgYGBgYGBglpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaWlpaW////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBgYGBg////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBglpaW////YGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////////////////YGBglpaWlpaWlpaWlpaWlpaW////////////////////////////lpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBgYGBg////YGBglpaWlpaWlpaWlpaWlpaWlpaWYGBgYGBgYGBg////////YGBgYGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBglpaW////YGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaW////YGBgYGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAlpaWlpaWlpaW////YGBglpaW////YGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWYGBglpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWlpaWgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAjIyMjIyMjIyMjIyMYGBgjIyMjIyMYGBgjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAf39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/f39/gIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////gIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////gIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ - gIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAAgIAA
+ NumAniEvents: 1
+ AniObjects:
+ -
+  Coords: [4,27,35,27]
+ -
+  Coords: [35,13,4,13]
+$LaneA:
+ BwEntranceCtrl: null
+ BwEntranceCtrlFront: false
+ BwEntranceCtrlRear: true
+ BwExitCtrl: null
+ BwExitCtrlFront: false
+ BwExitCtrlRear: true
+ EntranceCtrl: null
+ EntranceCtrlFront: true
+ EntranceCtrlRear: false
+ EntranceLocked: false
+ ExitCtrl: null
+ ExitCtrlFront: true
+ ExitCtrlOnce: true
+ ExitCtrlRear: false
+ ExitLocked: false
+ Length: 2
+ PullCtrl: null
+$LaneB:
+ BwEntranceCtrl: null
+ BwEntranceCtrlFront: false
+ BwEntranceCtrlRear: true
+ BwExitCtrl: null
+ BwExitCtrlFront: false
+ BwExitCtrlRear: true
+ EntranceCtrl: null
+ EntranceCtrlFront: true
+ EntranceCtrlRear: false
+ EntranceLocked: false
+ ExitCtrl: null
+ ExitCtrlFront: true
+ ExitCtrlOnce: true
+ ExitCtrlRear: false
+ ExitLocked: false
+ Length: 2
+ PullCtrl: null
+$CurveSegments:
+- 0
+- [0,2,0]

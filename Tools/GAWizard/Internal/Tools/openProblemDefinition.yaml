@@ -1,0 +1,20 @@
+InternalClassType: Method
+Coordinate3D: [2,-7,0]
+Name: openProblemDefinition
+Origin: b83ec430-4a54-431c-aa59-e271a4e5f720
+Program: |+1
+ -- called by: context menu 'Model parameter'
+ var tabObj:object
+ 
+ tabObj := ?.ProblemDefinition
+ formatProblemlDefinition(tabObj)
+ tabObj.openDialog
+
+RandomSeed: 493
+SelectCtrl:
+UUID: 9f7ef827-8539-4d20-b7e5-6c1a224e1f3b
+$IconAttributes:
+ CurrIconNo: 10
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

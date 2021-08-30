@@ -1,0 +1,17 @@
+InternalClassType: Method
+Coordinate3D: [22,-10,0]
+Name: PrepareDir
+Origin: b83ec430-4a54-431c-aa59-e271a4e5f720
+Program: |+1
+ -> string
+ var queryStr:string
+ 
+ queryStr := rootfolder.Localization.getText(56) --"Please select a folder."
+ result := to_str(browseForFolder(queryStr),"\\\\")
+RandomSeed: 452
+UUID: 09c5d803-1738-43bb-8c2d-7c5fb40b9051
+$IconAttributes:
+ CurrIconNo: 10
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

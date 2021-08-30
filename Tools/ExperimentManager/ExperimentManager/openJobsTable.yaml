@@ -1,0 +1,21 @@
+InternalClassType: Method
+Coordinate3D: [20,-39.55,0]
+Name: openJobsTable
+Origin: 5ae5800c-dfab-47ad-aedc-4711f1a601a2
+Program: |+1
+ -- open _JobsTable in case of distributed simulation
+ -- called by: context menu
+ 
+ if ?.usingRemote 
+ 	var tabObj:object := ?.JobsTable
+ 	tabObj.writeRow(1,0,rootfolder.Localization.getText(161),rootfolder.Localization.getText(162),rootfolder.Localization.getText(163),rootfolder.Localization.getText(164))
+ 	tabObj.openDialog -- not opened as dialog: you want observe it
+ else--"No distributed simulation"
+ 	messageBox(rootfolder.Localization.getText(287),1,4) -- info
+ end
+RandomSeed: 238
+UUID: adc3cd84-24ca-405b-8708-54da5795dc4e
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

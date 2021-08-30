@@ -1,0 +1,39 @@
+InternalClassType: Method
+ChangePathCtrl:
+CloseCtrl:
+ConstructorCtrl:
+Coordinate3D: [0,0,0]
+CreateIn3D: false
+DestructorCtrl:
+DragDropCtrl:
+InitCtrl:
+Label: ""
+MoveInFrameCtrl:
+MoveToFolderCtrl:
+Name: _Icons_
+OpenCtrl:
+PlausibilityCtrl:
+Program: ""
+RandomSeed: 362
+RelabelCtrl:
+RenameCtrl:
+RotateAroundRefPoint: true
+SelectCtrl:
+StatusWithIcons: false
+UUID: 4e6ce141-6d28-4fd1-bb8e-60e6ded17a84
+$IconAttributes:
+ CurrIconNo: 0
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$IconArray:
+-
+ Name: "Default"
+ RefPoint: [0,0]
+ Transparent: true
+ Size: [3,3]
+ Pixels:
+ - /wAA/wAA/wAA
+ - /wAA/wAA/wAA
+ - /wAA/wAA/wAA
+ NumAniEvents: 1

@@ -1,0 +1,23 @@
+InternalClassType: Toolbar
+ChangePathCtrl:
+ConstructorCtrl:
+DestructorCtrl:
+Label: "Information Flow"
+MoveToFolderCtrl:
+Name: Toolbar
+UUID: 8a60e9a4-c8c7-4f1a-8944-1ebecb72394a
+Visible: true
+$Objects:
+- 14e8d614-9464-4481-a9fa-24b2012459d7
+- 336008a0-132b-40f5-83c4-1622e8643156
+- efce18ed-49c4-401a-a62e-1ac4b03a771e
+- 1c7f310b-e425-4b9c-a1e7-8b1644fc0a2e
+- 78fa684e-c793-4028-a784-c98cee24e862
+- 027dafb8-861d-49c9-9e5d-915b894d085f
+- 878b5482-ce4b-4f41-8e51-5283d90decad
+- 1ddd51f0-88e2-46ed-b3bd-75ea68e19c73
+- 5c673b34-a5a1-4117-9013-d087c3ed7fc8
+- 9307c469-3912-4fd0-aa2f-3ec16dffff94
+- 5a2f5dd6-120a-49cd-b2c7-eca0d401ef6a
+- 30f71b57-22a6-4d95-bd84-b4e501084a70
+- 93a8adc9-aded-4b65-bb3f-6d1493cebd5a

@@ -1,0 +1,27 @@
+InternalClassType: Method
+Coordinate3D: [-1.3,10,0]
+Name: detectEnergyobjects
+Origin: d6d41164-b828-4c98-9224-e0fcfdf4c17a
+Program: |+1
+ -- true, if energy is acitve
+ -- with error handler
+ param o:object->boolean
+ return o.EnergyActive
+RandomSeed: 55
+UUID: a3ad7f7e-4f85-44c3-8519-f4d185f78a72
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$CustomAttributes:
+-
+ Name: ErrorHandler
+ DataType: method
+ RandomSeed: 54
+ Value: |+1
+  param byref error : string,
+  method_path : string,
+  line_number : integer -> boolean
+  
+  	error := "" -- catch the error
+

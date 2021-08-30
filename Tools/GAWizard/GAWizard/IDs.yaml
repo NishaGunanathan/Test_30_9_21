@@ -1,0 +1,31 @@
+InternalClassType: DataTable
+Coordinate3D: [22,-12,0]
+Label: ""
+Name: IDs
+Origin: 53dbc1b8-2f49-4dc7-a0ef-71afd6e58613
+UUID: 1804273c-ff3c-4315-8388-9166e81a20ca
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$Data:
+ Comment: |+1
+  Columns No is equal to strHash(uniqueIndivStr) mod m.\r
+  The column index is the number of items of the corresponding column.\r
+  The values are the IDs (= row of StatisticalEvaluation).
+ ShowComment: true
+ ListFormat:
+  ColumnWidth: 8
+  DataType: integer
+  ShowDataType: true
+  ColumnFormat:
+  -
+   Index: 1
+  -
+   Index: 2
+   FormatString: "-15.5"
+  RowFormat:
+  -
+   Index: 0
+   Hidden: true
+ Columns:

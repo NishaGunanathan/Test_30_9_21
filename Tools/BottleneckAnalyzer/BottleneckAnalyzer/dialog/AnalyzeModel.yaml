@@ -1,0 +1,14 @@
+InternalClassType: Method
+Coordinate3D: [-1,10,0]
+Name: AnalyzeModel
+Origin: 5023c3b0-b155-4c2e-ac4a-a0d084d9cbf2
+Program: |+1
+ -- called by the context menu 'Show Analysis'
+ dialog.callback("analyze")
+ --~.markBottleneckObject
+RandomSeed: 68
+UUID: f820ca0a-13de-402f-94d2-3b599755db18
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

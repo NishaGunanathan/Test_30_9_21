@@ -1,0 +1,16 @@
+InternalClassType: Frame
+Coordinate3D: [-11,13,0]
+Name: Methods
+Origin: a4bb54fd-d98d-4a1d-9cf6-b6b4164b0104
+ShowDisplayPanels: true
+ShowObjectLabels: false
+ShowObjectNames: true
+UUID: 63d52ced-0e07-4789-9bee-0ded2b4ce98d
+ZoomFactor: 1
+$IconAttributes:
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true
+$ShowConnections: true
+$ShowComment: true
+$ShowGrid: true

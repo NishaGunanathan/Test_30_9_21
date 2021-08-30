@@ -1,0 +1,27 @@
+InternalClassType: Frame
+Coordinate3D: [34.85,-39.55,0]
+Name: Rules
+Origin: a4bb54fd-d98d-4a1d-9cf6-b6b4164b0104
+ShowDisplayPanels: true
+ShowObjectLabels: false
+ShowObjectNames: true
+UUID: f31fa732-f62e-43cf-8c7b-f61991283e59
+ZoomFactor: 1
+$ShowConnections: true
+$ShowComment: true
+$ShowGrid: true
+$Nodes:
+- 9bcb2a42-189a-447d-9d0e-149ccad7078e
+- 1f58d3f4-d823-498e-b4c0-b05c9c6d386a
+- ac139ca4-3495-445c-98de-67f307be1940
+- 6e15b0b7-f11e-4a9f-8a71-df484cabaaf9
+- 63d52ced-0e07-4789-9bee-0ded2b4ce98d
+- a4d703f6-76ff-4667-9eec-cf4d36827f9c
+- 07a6234b-d4b8-41db-a79d-11ac24db324a
+- 2b66afa0-d4be-4fe6-bfc4-bc4609a33343
+- 43154886-a22a-4246-9b4d-73215afd9c73
+- 2345719c-ae66-4ee4-beda-e046e4cadc52
+- 813c9270-bd9e-45c0-a08a-0ef39036678e
+- 24e3b8df-66a0-4ce6-915b-abdbc678ae3f
+- 62a3af6a-5089-462d-a423-d4bb82a498d7
+- 219487e8-ab3c-4ef8-84cf-ea8356a97941

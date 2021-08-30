@@ -1,0 +1,24 @@
+InternalClassType: Method
+Coordinate3D: [3,-10,0]
+Name: grayStatisticEval
+Origin: b83ec430-4a54-431c-aa59-e271a4e5f720
+Program: |+1
+ -- grayStatisticEval: grayes the dialog elements of the detailed statistics
+ param isSet:boolean
+ 
+ GAWizard.setSensitive("child_com", isSet)
+ GAWizard.setSensitive("allOffSpring_B", isSet)
+ --GAWizard.setSensitive("Interm_Com", isSet)
+ --GAWizard.setSensitive("IntermediateResults_B", isSet)
+ 
+ -- GAWizard.setSensitive("ModelParam_Gr", isSet) -- impossible for Group-dialog element
+ GAWizard.setSensitive("No_Individual_TXT", isSet)
+ GAWizard.setSensitive("No_Individual_Inp", isSet)
+ GAWizard.setSensitive("Param_but", isSet)
+RandomSeed: 438
+UUID: d97afbbf-f7af-41df-993d-c4a7de67a4a5
+$IconAttributes:
+ CurrIconNo: 10
+ Matrix: [1,0,0,1]
+ ChangedRotation: true
+ ChangedScaling: true

@@ -1,0 +1,101 @@
+InternalClassType: DataTable
+CloseCtrl: "self.OnClose"
+Coordinate3D: [4.5,13,0]
+Name: EnergyConsumers
+Origin: a476e411-082f-43ca-a064-2d0472364128
+UUID: d29d7e16-f67e-4dbe-8eaf-8af2ab4889c3
+$CustomAttributes:
+-
+ Name: isOpen
+ DataType: boolean
+ Value: false
+-
+ Name: OnClose
+ DataType: method
+ RandomSeed: 60
+ Value: |+1
+  param changed : boolean
+  
+  @.isOpen := false
+
+$Data:
+ ListFormat:
+  ColumnIndex: true
+  ColumnWidth: 20
+  DataType: string
+  MaxXDim: 9
+  RowIndex: true
+  ShowDataType: true
+  ColumnFormat:
+  -
+   Index: 0
+   Hidden: false
+   DataType: string
+   FastIndexAccess: true
+   Width: 24
+  -
+   Index: 1
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 12
+  -
+   Index: 2
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+  -
+   Index: 3
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 22
+  -
+   Index: 4
+   Color: 0xffffff
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 8
+  -
+   Index: 5
+   Color: 0xffffff
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 8
+  -
+   Index: 6
+   Color: 0xffffff
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 11
+  -
+   Index: 7
+   Color: 0xffffff
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 8
+  -
+   Index: 8
+   Color: 0xffffff
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 8
+  -
+   Index: 9
+   Color: 0xffffff
+   Alignment: "Right"
+   DataType: real
+   FormatString: "-15.2"
+   Width: 8
+  RowFormat:
+  -
+   Index: 0
+   Alignment: "Center"
+   Hidden: false
+ ColumnIndex: [string,10,"Energy Consumers","Energy [kWh]","Energy operational [kWh]","Current power input [kW]","Working","Setting-up","Operational","Failed","Standby","Off"]
+ Columns:
